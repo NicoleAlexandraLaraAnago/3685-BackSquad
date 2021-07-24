@@ -1,0 +1,15 @@
+﻿  ArbolBinario.cpp
+  Polaca.cpp
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Polaca.cpp(53,36): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Polaca.cpp(77,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Polaca.cpp(83,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Polaca.cpp(89,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Polaca.cpp(95,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Polaca.cpp(101,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Validar.cpp
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Validar.cpp(17,29): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  main.cpp
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\main.cpp(2,13): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  Generando código...
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\NuevoArbol\Polaca.cpp(109): warning C4715: 'Polaca::doOperation': no todas las rutas de acceso de control devuelven un valor
+  NuevoArbol.vcxproj -> C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\Proyecto\Polaca\NuevoArbol\x64\Debug\NuevoArbol.exe
