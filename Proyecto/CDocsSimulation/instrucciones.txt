@@ -1,0 +1,2 @@
+Genera los CDocs de un programa que te compile. El que tu desees.
+El diagrama de clases no generes porque eso si sabemos como hacer o hacemos ingenieria inversa.

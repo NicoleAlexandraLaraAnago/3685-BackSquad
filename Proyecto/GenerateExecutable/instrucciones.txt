@@ -1,0 +1,7 @@
+1. Aqui copie la funcion que hizo andres para validar la entrada de enteros.
+2. Puedes hacer el ejecutable de este programa u de otro que tu prefieras.
+3. El ejecutable debe tener las siguientes caracteristicas
+	readme
+	instalador
+	about
+	generar licencia

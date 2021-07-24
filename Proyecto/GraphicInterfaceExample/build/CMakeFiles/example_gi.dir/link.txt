@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\example_gi.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\example_gi.dir/objects.a @CMakeFiles\example_gi.dir\objects1.rsp
+C:\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\example_gi.dir/objects.a -Wl,--no-whole-archive -o example_gi.exe -Wl,--out-implib,libexample_gi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\example_gi.dir\linklibs.rsp
