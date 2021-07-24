@@ -1,0 +1,27 @@
+[
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\treesAVL.dir\\main.cpp.obj -c \"C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\Arboles AVL\\main.cpp\"",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/main.cpp"
+},
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\treesAVL.dir\\ArbolAVL.cpp.obj -c \"C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\Arboles AVL\\ArbolAVL.cpp\"",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/ArbolAVL.cpp"
+},
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\treesAVL.dir\\Consola.cpp.obj -c \"C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\Arboles AVL\\Consola.cpp\"",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/Consola.cpp"
+},
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\treesAVL.dir\\Menu.cpp.obj -c \"C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\Arboles AVL\\Menu.cpp\"",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/Menu.cpp"
+},
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\treesAVL.dir\\Nodo.cpp.obj -c \"C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\Arboles AVL\\Nodo.cpp\"",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/Nodo.cpp"
+}
+]
