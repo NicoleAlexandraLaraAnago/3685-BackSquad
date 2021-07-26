@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/TOSHIBA/Desktop/3685-BackSquad/Proyecto/GraphicInterfaceExample/build"
+			"value" : "c:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -187,10 +187,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe"
 		},
 		{
@@ -331,10 +331,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/mingw64/bin/x86_64-w64-mingw32-gcc.exe"
 		},
 		{
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Proyecto/GraphicInterfaceExample"
+			"value" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/example_gi"
+			"value" : "C:/Program Files (x86)/treeB"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "example_gi"
+			"value" : "treeB"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1718,7 +1718,7 @@
 			"value" : ""
 		},
 		{
-			"name" : "example_gi_BINARY_DIR",
+			"name" : "treeB_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1727,10 +1727,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Proyecto/GraphicInterfaceExample/build"
+			"value" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB/build"
 		},
 		{
-			"name" : "example_gi_SOURCE_DIR",
+			"name" : "treeB_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1739,7 +1739,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Proyecto/GraphicInterfaceExample"
+			"value" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB"
 		}
 	],
 	"kind" : "cache",
