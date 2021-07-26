@@ -1,8 +1,10 @@
 #include <iostream>
-#include "Btree.h"
+#include "Aplicacion.h"
+#include "BTree.h"
 
 int main(int, char**) {
-    std::cout << "Programa para probar arboles!\n";
+    Application::get_instance().run();
+    /*std::cout << "Programa para probar arboles!\n";
     BTree<int> t(3);
     t.insert(10);
     t.insert(20);
@@ -26,6 +28,6 @@ int main(int, char**) {
     int k = 6;
     (t.search(k)!=NULL)? std::cout<<"\nPresent" : std::cout<< "\nNot Present";
     k = 1;
-    (t.search(k)!=NULL)? std::cout<<"\nPresent" : std::cout<< "\nNot Present";
+    (t.search(k)!=NULL)? std::cout<<"\nPresent" : std::cout<< "\nNot Present";*/
     return 0;
 }

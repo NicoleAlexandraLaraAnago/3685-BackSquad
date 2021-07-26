@@ -54,7 +54,7 @@
 					[
 						0
 					],
-					"name" : "treeB",
+					"name" : "main",
 					"targetIndexes" : 
 					[
 						0,
@@ -289,9 +289,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "treeB::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-treeB-Debug-2bc2fc92f5c4ee4669c2.json",
-					"name" : "treeB",
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-3f389457076cbde5d1c3.json",
+					"name" : "main",
 					"projectIndex" : 0
 				}
 			]
@@ -300,8 +300,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB/build",
-		"source" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB"
+		"build" : "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build",
+		"source" : "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB"
 	},
 	"version" : 
 	{

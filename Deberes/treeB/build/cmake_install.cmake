@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB
+# Install script for directory: C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/treeB")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

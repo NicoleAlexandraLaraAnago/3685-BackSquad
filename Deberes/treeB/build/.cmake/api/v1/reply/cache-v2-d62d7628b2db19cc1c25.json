@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB/build"
+			"value" : "c:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB"
+			"value" : "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/treeB"
+			"value" : "C:/Program Files (x86)/main"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "treeB"
+			"value" : "main"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1699,7 +1699,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "DESKTOP-2DGABKI"
+			"value" : "DESKTOP-4RBRTQH"
 		},
 		{
 			"name" : "SVNCOMMAND",
@@ -1718,7 +1718,7 @@
 			"value" : ""
 		},
 		{
-			"name" : "treeB_BINARY_DIR",
+			"name" : "main_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1727,10 +1727,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB/build"
+			"value" : "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build"
 		},
 		{
-			"name" : "treeB_SOURCE_DIR",
+			"name" : "main_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1739,7 +1739,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB"
+			"value" : "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB"
 		}
 	],
 	"kind" : "cache",

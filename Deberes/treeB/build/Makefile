@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TOSHIBA\Desktop\EstructuraDatos2021\treeB
+CMAKE_SOURCE_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TOSHIBA\Desktop\EstructuraDatos2021\treeB\build
+CMAKE_BINARY_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,12 +67,22 @@ CMAKE_BINARY_DIR = C:\Users\TOSHIBA\Desktop\EstructuraDatos2021\treeB\build
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeB/build/CPackSourceConfig.cmake
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
 package_source/fast: package_source
 .PHONY : package_source/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # Special rule for the target package
 package: preinstall
@@ -94,16 +104,6 @@ test:
 test/fast: test
 .PHONY : test/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -116,9 +116,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TOSHIBA\Desktop\EstructuraDatos2021\treeB\build\CMakeFiles C:\Users\TOSHIBA\Desktop\EstructuraDatos2021\treeB\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TOSHIBA\Desktop\EstructuraDatos2021\treeB\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -300,19 +300,6 @@ NightlyMemCheck: cmake_check_build_system
 NightlyMemCheck/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NightlyMemCheck.dir\build.make CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
-
-#=============================================================================
-# Target rules for targets named treeB
-
-# Build rule for target.
-treeB: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 treeB
-.PHONY : treeB
-
-# fast build rule for target.
-treeB/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\treeB.dir\build.make CMakeFiles/treeB.dir/build
-.PHONY : treeB/fast
 
 #=============================================================================
 # Target rules for targets named ExperimentalBuild
@@ -522,12 +509,97 @@ ContinuousCoverage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousCoverage.dir\build.make CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+Aplicacion.obj: Aplicacion.cpp.obj
+.PHONY : Aplicacion.obj
+
+# target to build an object file
+Aplicacion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Aplicacion.cpp.obj
+.PHONY : Aplicacion.cpp.obj
+
+Aplicacion.i: Aplicacion.cpp.i
+.PHONY : Aplicacion.i
+
+# target to preprocess a source file
+Aplicacion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Aplicacion.cpp.i
+.PHONY : Aplicacion.cpp.i
+
+Aplicacion.s: Aplicacion.cpp.s
+.PHONY : Aplicacion.s
+
+# target to generate assembly for a file
+Aplicacion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Aplicacion.cpp.s
+.PHONY : Aplicacion.cpp.s
+
+Menu.obj: Menu.cpp.obj
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
+Menu_option.obj: Menu_option.cpp.obj
+.PHONY : Menu_option.obj
+
+# target to build an object file
+Menu_option.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Menu_option.cpp.obj
+.PHONY : Menu_option.cpp.obj
+
+Menu_option.i: Menu_option.cpp.i
+.PHONY : Menu_option.i
+
+# target to preprocess a source file
+Menu_option.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Menu_option.cpp.i
+.PHONY : Menu_option.cpp.i
+
+Menu_option.s: Menu_option.cpp.s
+.PHONY : Menu_option.s
+
+# target to generate assembly for a file
+Menu_option.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Menu_option.cpp.s
+.PHONY : Menu_option.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\treeB.dir\build.make CMakeFiles/treeB.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -535,7 +607,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\treeB.dir\build.make CMakeFiles/treeB.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -543,7 +615,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\treeB.dir\build.make CMakeFiles/treeB.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -585,7 +657,16 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... treeB
+	@echo ... main
+	@echo ... Aplicacion.obj
+	@echo ... Aplicacion.i
+	@echo ... Aplicacion.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
+	@echo ... Menu_option.obj
+	@echo ... Menu_option.i
+	@echo ... Menu_option.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
