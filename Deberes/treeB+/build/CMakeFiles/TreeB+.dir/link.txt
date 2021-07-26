@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\TreeB+.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\TreeB+.dir/objects.a @CMakeFiles\TreeB+.dir\objects1.rsp
+C:\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\TreeB+.dir/objects.a -Wl,--no-whole-archive -o TreeB+.exe -Wl,--out-implib,libTreeB+.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TreeB+.dir\linklibs.rsp
