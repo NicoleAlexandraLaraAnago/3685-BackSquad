@@ -1,6 +1,6 @@
 /*Universidad de las Fuerzas Armadas ESPE
 Tpitulo: Arboles AVL en C++
-Autor/es: Stalin Rivera, Sebastián Jiménez, Lizzete Zapata y Dalton Arevalo 
+Autor/es: Stalin Rivera, Sebastián Jiménez, Lizzete Zapata,Nicole Lara y Dalton Arevalo 
 Fecha de creación: 16/07/2021
 Fecha de modificación:22/07/2021
 Ingeniería de Software
