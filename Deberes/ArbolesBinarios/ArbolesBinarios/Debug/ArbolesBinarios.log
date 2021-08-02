@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\4puntos\Guia\Arboles\ArbolesBinarios\Arbol.h(95): warning C4715: 'Arbol::buscar': no todas las rutas de acceso de control devuelven un valor
+  ArbolesBinarios.vcxproj -> C:\Users\jorge\OneDrive\Escritorio\U\Bases de datos\DeberesP2\4puntos\Guia\Arboles\ArbolesBinarios\ArbolesBinarios\Debug\ArbolesBinarios.exe
