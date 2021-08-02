@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+"
+CMAKE_SOURCE_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build"
+CMAKE_BINARY_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TreeB+.dir/depend.make
@@ -72,91 +72,91 @@ CMakeFiles/TreeB+.dir/B+Tree.cpp.obj: CMakeFiles/TreeB+.dir/flags.make
 CMakeFiles/TreeB+.dir/B+Tree.cpp.obj: CMakeFiles/TreeB+.dir/includes_CXX.rsp
 CMakeFiles/TreeB+.dir/B+Tree.cpp.obj: ../B+Tree.cpp
 CMakeFiles/TreeB+.dir/B+Tree.cpp.obj: CMakeFiles/TreeB+.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TreeB+.dir/B+Tree.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/B+Tree.cpp.obj -MF CMakeFiles\TreeB+.dir\B+Tree.cpp.obj.d -o CMakeFiles\TreeB+.dir\B+Tree.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\B+Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TreeB+.dir/B+Tree.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/B+Tree.cpp.obj -MF CMakeFiles\TreeB+.dir\B+Tree.cpp.obj.d -o CMakeFiles\TreeB+.dir\B+Tree.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\B+Tree.cpp
 
 CMakeFiles/TreeB+.dir/B+Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeB+.dir/B+Tree.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\B+Tree.cpp" > CMakeFiles\TreeB+.dir\B+Tree.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\B+Tree.cpp > CMakeFiles\TreeB+.dir\B+Tree.cpp.i
 
 CMakeFiles/TreeB+.dir/B+Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeB+.dir/B+Tree.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\B+Tree.cpp" -o CMakeFiles\TreeB+.dir\B+Tree.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\B+Tree.cpp -o CMakeFiles\TreeB+.dir\B+Tree.cpp.s
 
 CMakeFiles/TreeB+.dir/display.cpp.obj: CMakeFiles/TreeB+.dir/flags.make
 CMakeFiles/TreeB+.dir/display.cpp.obj: CMakeFiles/TreeB+.dir/includes_CXX.rsp
 CMakeFiles/TreeB+.dir/display.cpp.obj: ../display.cpp
 CMakeFiles/TreeB+.dir/display.cpp.obj: CMakeFiles/TreeB+.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TreeB+.dir/display.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/display.cpp.obj -MF CMakeFiles\TreeB+.dir\display.cpp.obj.d -o CMakeFiles\TreeB+.dir\display.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\display.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TreeB+.dir/display.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/display.cpp.obj -MF CMakeFiles\TreeB+.dir\display.cpp.obj.d -o CMakeFiles\TreeB+.dir\display.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\display.cpp
 
 CMakeFiles/TreeB+.dir/display.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeB+.dir/display.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\display.cpp" > CMakeFiles\TreeB+.dir\display.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\display.cpp > CMakeFiles\TreeB+.dir\display.cpp.i
 
 CMakeFiles/TreeB+.dir/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeB+.dir/display.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\display.cpp" -o CMakeFiles\TreeB+.dir\display.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\display.cpp -o CMakeFiles\TreeB+.dir\display.cpp.s
 
 CMakeFiles/TreeB+.dir/insertion.cpp.obj: CMakeFiles/TreeB+.dir/flags.make
 CMakeFiles/TreeB+.dir/insertion.cpp.obj: CMakeFiles/TreeB+.dir/includes_CXX.rsp
 CMakeFiles/TreeB+.dir/insertion.cpp.obj: ../insertion.cpp
 CMakeFiles/TreeB+.dir/insertion.cpp.obj: CMakeFiles/TreeB+.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TreeB+.dir/insertion.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/insertion.cpp.obj -MF CMakeFiles\TreeB+.dir\insertion.cpp.obj.d -o CMakeFiles\TreeB+.dir\insertion.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\insertion.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TreeB+.dir/insertion.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/insertion.cpp.obj -MF CMakeFiles\TreeB+.dir\insertion.cpp.obj.d -o CMakeFiles\TreeB+.dir\insertion.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\insertion.cpp
 
 CMakeFiles/TreeB+.dir/insertion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeB+.dir/insertion.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\insertion.cpp" > CMakeFiles\TreeB+.dir\insertion.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\insertion.cpp > CMakeFiles\TreeB+.dir\insertion.cpp.i
 
 CMakeFiles/TreeB+.dir/insertion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeB+.dir/insertion.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\insertion.cpp" -o CMakeFiles\TreeB+.dir\insertion.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\insertion.cpp -o CMakeFiles\TreeB+.dir\insertion.cpp.s
 
 CMakeFiles/TreeB+.dir/remove_.cpp.obj: CMakeFiles/TreeB+.dir/flags.make
 CMakeFiles/TreeB+.dir/remove_.cpp.obj: CMakeFiles/TreeB+.dir/includes_CXX.rsp
 CMakeFiles/TreeB+.dir/remove_.cpp.obj: ../remove_.cpp
 CMakeFiles/TreeB+.dir/remove_.cpp.obj: CMakeFiles/TreeB+.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TreeB+.dir/remove_.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/remove_.cpp.obj -MF CMakeFiles\TreeB+.dir\remove_.cpp.obj.d -o CMakeFiles\TreeB+.dir\remove_.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\remove_.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TreeB+.dir/remove_.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/remove_.cpp.obj -MF CMakeFiles\TreeB+.dir\remove_.cpp.obj.d -o CMakeFiles\TreeB+.dir\remove_.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\remove_.cpp
 
 CMakeFiles/TreeB+.dir/remove_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeB+.dir/remove_.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\remove_.cpp" > CMakeFiles\TreeB+.dir\remove_.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\remove_.cpp > CMakeFiles\TreeB+.dir\remove_.cpp.i
 
 CMakeFiles/TreeB+.dir/remove_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeB+.dir/remove_.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\remove_.cpp" -o CMakeFiles\TreeB+.dir\remove_.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\remove_.cpp -o CMakeFiles\TreeB+.dir\remove_.cpp.s
 
 CMakeFiles/TreeB+.dir/search.cpp.obj: CMakeFiles/TreeB+.dir/flags.make
 CMakeFiles/TreeB+.dir/search.cpp.obj: CMakeFiles/TreeB+.dir/includes_CXX.rsp
 CMakeFiles/TreeB+.dir/search.cpp.obj: ../search.cpp
 CMakeFiles/TreeB+.dir/search.cpp.obj: CMakeFiles/TreeB+.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TreeB+.dir/search.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/search.cpp.obj -MF CMakeFiles\TreeB+.dir\search.cpp.obj.d -o CMakeFiles\TreeB+.dir\search.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\search.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TreeB+.dir/search.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/search.cpp.obj -MF CMakeFiles\TreeB+.dir\search.cpp.obj.d -o CMakeFiles\TreeB+.dir\search.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\search.cpp
 
 CMakeFiles/TreeB+.dir/search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeB+.dir/search.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\search.cpp" > CMakeFiles\TreeB+.dir\search.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\search.cpp > CMakeFiles\TreeB+.dir\search.cpp.i
 
 CMakeFiles/TreeB+.dir/search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeB+.dir/search.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\search.cpp" -o CMakeFiles\TreeB+.dir\search.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\search.cpp -o CMakeFiles\TreeB+.dir\search.cpp.s
 
 CMakeFiles/TreeB+.dir/utilFunc.cpp.obj: CMakeFiles/TreeB+.dir/flags.make
 CMakeFiles/TreeB+.dir/utilFunc.cpp.obj: CMakeFiles/TreeB+.dir/includes_CXX.rsp
 CMakeFiles/TreeB+.dir/utilFunc.cpp.obj: ../utilFunc.cpp
 CMakeFiles/TreeB+.dir/utilFunc.cpp.obj: CMakeFiles/TreeB+.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TreeB+.dir/utilFunc.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/utilFunc.cpp.obj -MF CMakeFiles\TreeB+.dir\utilFunc.cpp.obj.d -o CMakeFiles\TreeB+.dir\utilFunc.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\utilFunc.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TreeB+.dir/utilFunc.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TreeB+.dir/utilFunc.cpp.obj -MF CMakeFiles\TreeB+.dir\utilFunc.cpp.obj.d -o CMakeFiles\TreeB+.dir\utilFunc.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\utilFunc.cpp
 
 CMakeFiles/TreeB+.dir/utilFunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TreeB+.dir/utilFunc.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\utilFunc.cpp" > CMakeFiles\TreeB+.dir\utilFunc.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\utilFunc.cpp > CMakeFiles\TreeB+.dir\utilFunc.cpp.i
 
 CMakeFiles/TreeB+.dir/utilFunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TreeB+.dir/utilFunc.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\utilFunc.cpp" -o CMakeFiles\TreeB+.dir\utilFunc.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\utilFunc.cpp -o CMakeFiles\TreeB+.dir\utilFunc.cpp.s
 
 # Object files for target TreeB+
 TreeB____OBJECTS = \
@@ -180,7 +180,7 @@ TreeB+.exe: CMakeFiles/TreeB+.dir/build.make
 TreeB+.exe: CMakeFiles/TreeB+.dir/linklibs.rsp
 TreeB+.exe: CMakeFiles/TreeB+.dir/objects1.rsp
 TreeB+.exe: CMakeFiles/TreeB+.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TreeB+.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TreeB+.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TreeB+.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/TreeB+.dir/clean:
 .PHONY : CMakeFiles/TreeB+.dir/clean
 
 CMakeFiles/TreeB+.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles\TreeB+.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+ C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+ C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles\TreeB+.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TreeB+.dir/depend
 

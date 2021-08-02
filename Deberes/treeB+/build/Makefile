@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+"
+CMAKE_SOURCE_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build"
+CMAKE_BINARY_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabaj
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build/CPackSourceConfig.cmake"
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,9 +116,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

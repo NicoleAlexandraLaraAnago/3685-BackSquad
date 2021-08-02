@@ -28,6 +28,16 @@ public:
     void insertNonFull(A key);
     void splitNode(int i, Node<A>* up);
 
+    int findKey(A key);
+    void remove(A key);
+    void removeFromLeaf(int index);
+    void removeFromNonLeaf(int index);
+    A getPred(int index);
+    A getSucc(int index);
+    void fill(int index);
+    void borrowFromPrev(int index);
+    void borrowFromNext(int index);
+    
 };
 
 template <typename A>

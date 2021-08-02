@@ -1,22 +1,22 @@
 [
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\main.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Deberes\\treeB\\main.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/main.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB\\main.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/main.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\Menu_option.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Deberes\\treeB\\Menu_option.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/Menu_option.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\Menu_option.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB\\Menu_option.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/Menu_option.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\Menu.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Deberes\\treeB\\Menu.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/Menu.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\Menu.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB\\Menu.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/Menu.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\Aplicacion.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Deberes\\treeB\\Aplicacion.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Deberes/treeB/Aplicacion.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\main.dir\\Aplicacion.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB\\Aplicacion.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB/Aplicacion.cpp"
 }
 ]

@@ -1,32 +1,32 @@
 [
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\B+Tree.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Individual\\Arevalo_Dalton_Extras\\Extras\\Extra_45_Arboles_B+\\B+Tree.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/B+Tree.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\B+Tree.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB+\\B+Tree.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/B+Tree.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\display.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Individual\\Arevalo_Dalton_Extras\\Extras\\Extra_45_Arboles_B+\\display.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/display.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\display.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB+\\display.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/display.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\insertion.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Individual\\Arevalo_Dalton_Extras\\Extras\\Extra_45_Arboles_B+\\insertion.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/insertion.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\insertion.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB+\\insertion.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/insertion.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\remove_.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Individual\\Arevalo_Dalton_Extras\\Extras\\Extra_45_Arboles_B+\\remove_.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/remove_.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\remove_.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB+\\remove_.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/remove_.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\search.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Individual\\Arevalo_Dalton_Extras\\Extras\\Extra_45_Arboles_B+\\search.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/search.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\search.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB+\\search.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/search.cpp"
 },
 {
-  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build",
-  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\utilFunc.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Individual\\Arevalo_Dalton_Extras\\Extras\\Extra_45_Arboles_B+\\utilFunc.cpp\"",
-  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/utilFunc.cpp"
+  "directory": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/TreeB+.dir/includes_CXX.rsp -g -o CMakeFiles\\TreeB+.dir\\utilFunc.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\3685-BackSquad\\Deberes\\treeB+\\utilFunc.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/utilFunc.cpp"
 }
 ]

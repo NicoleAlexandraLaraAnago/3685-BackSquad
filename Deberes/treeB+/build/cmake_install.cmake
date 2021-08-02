@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+
+# Install script for directory: C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB"
+CMAKE_SOURCE_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build"
+CMAKE_BINARY_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -71,58 +71,58 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/main.dir/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.obj -MF CMakeFiles\main.dir\main.cpp.obj.d -o CMakeFiles\main.dir\main.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\main.cpp" > CMakeFiles\main.dir\main.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\main.cpp > CMakeFiles\main.dir\main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\main.cpp" -o CMakeFiles\main.dir\main.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\main.cpp -o CMakeFiles\main.dir\main.cpp.s
 
 CMakeFiles/main.dir/Menu_option.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Menu_option.cpp.obj: ../Menu_option.cpp
 CMakeFiles/main.dir/Menu_option.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Menu_option.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Menu_option.cpp.obj -MF CMakeFiles\main.dir\Menu_option.cpp.obj.d -o CMakeFiles\main.dir\Menu_option.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Menu_option.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Menu_option.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Menu_option.cpp.obj -MF CMakeFiles\main.dir\Menu_option.cpp.obj.d -o CMakeFiles\main.dir\Menu_option.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Menu_option.cpp
 
 CMakeFiles/main.dir/Menu_option.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Menu_option.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Menu_option.cpp" > CMakeFiles\main.dir\Menu_option.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Menu_option.cpp > CMakeFiles\main.dir\Menu_option.cpp.i
 
 CMakeFiles/main.dir/Menu_option.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Menu_option.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Menu_option.cpp" -o CMakeFiles\main.dir\Menu_option.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Menu_option.cpp -o CMakeFiles\main.dir\Menu_option.cpp.s
 
 CMakeFiles/main.dir/Menu.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Menu.cpp.obj: ../Menu.cpp
 CMakeFiles/main.dir/Menu.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Menu.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Menu.cpp.obj -MF CMakeFiles\main.dir\Menu.cpp.obj.d -o CMakeFiles\main.dir\Menu.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Menu.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Menu.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Menu.cpp.obj -MF CMakeFiles\main.dir\Menu.cpp.obj.d -o CMakeFiles\main.dir\Menu.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Menu.cpp
 
 CMakeFiles/main.dir/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Menu.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Menu.cpp" > CMakeFiles\main.dir\Menu.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Menu.cpp > CMakeFiles\main.dir\Menu.cpp.i
 
 CMakeFiles/main.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Menu.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Menu.cpp" -o CMakeFiles\main.dir\Menu.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Menu.cpp -o CMakeFiles\main.dir\Menu.cpp.s
 
 CMakeFiles/main.dir/Aplicacion.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Aplicacion.cpp.obj: ../Aplicacion.cpp
 CMakeFiles/main.dir/Aplicacion.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/Aplicacion.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Aplicacion.cpp.obj -MF CMakeFiles\main.dir\Aplicacion.cpp.obj.d -o CMakeFiles\main.dir\Aplicacion.cpp.obj -c "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Aplicacion.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/Aplicacion.cpp.obj"
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Aplicacion.cpp.obj -MF CMakeFiles\main.dir\Aplicacion.cpp.obj.d -o CMakeFiles\main.dir\Aplicacion.cpp.obj -c C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Aplicacion.cpp
 
 CMakeFiles/main.dir/Aplicacion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Aplicacion.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Aplicacion.cpp" > CMakeFiles\main.dir\Aplicacion.cpp.i
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Aplicacion.cpp > CMakeFiles\main.dir\Aplicacion.cpp.i
 
 CMakeFiles/main.dir/Aplicacion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Aplicacion.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\Aplicacion.cpp" -o CMakeFiles\main.dir\Aplicacion.cpp.s
+	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\Aplicacion.cpp -o CMakeFiles\main.dir\Aplicacion.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -142,7 +142,7 @@ main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Grupal_1\3685-BackSquad\Deberes\treeB\build\CMakeFiles\main.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB\build\CMakeFiles\main.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

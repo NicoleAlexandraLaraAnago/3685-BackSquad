@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+
-BuildDirectory: C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+/build
+SourceDirectory: C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+
+BuildDirectory: C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-4RBRTQH
+Site: DESKTOP-2DGABKI
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Individual/Arevalo_Dalton_Extras/Extras/Extra_45_Arboles_B+"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/treeB+"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -63,7 +63,7 @@ UpdateType:
 
 # Compiler info
 Compiler: C:/mingw64/bin/x86_64-w64-mingw32-g++.exe
-CompilerVersion: 10.3.0
+CompilerVersion: 10.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

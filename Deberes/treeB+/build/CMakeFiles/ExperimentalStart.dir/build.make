@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+"
+CMAKE_SOURCE_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build"
+CMAKE_BINARY_DIR = C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build
 
 # Utility rule file for ExperimentalStart.
 
@@ -81,6 +81,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build" "C:\Users\DALTON AREVALO\Desktop\u\Estructura de Datos\Trabajo_Individual\Arevalo_Dalton_Extras\Extras\Extra_45_Arboles_B+\build\CMakeFiles\ExperimentalStart.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+ C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+ C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\treeB+\build\CMakeFiles\ExperimentalStart.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

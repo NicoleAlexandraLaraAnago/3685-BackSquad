@@ -1,0 +1,1 @@
+  -LC:/Users/TOSHIBA/Desktop/EstructuraDatos2021/TreeCalculator/external/SFML/lib  -LC:/Users/TOSHIBA/Desktop/EstructuraDatos2021/TreeCalculator/external/imgui-sfml/lib  -lImGui-SFML -lsfml-window-s -lsfml-system-s -lsfml-graphics-s -lopengl32 -lwinmm -lgdi32 -limm32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
