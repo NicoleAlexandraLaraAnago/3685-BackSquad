@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/PC/OneDrive/Documentos/GitHub/3685-BackSquad/Proyecto/TreeCalculator
-BuildDirectory: C:/Users/PC/OneDrive/Documentos/GitHub/3685-BackSquad/Proyecto/TreeCalculator/build
+SourceDirectory: C:/Users/Usuario/Documents/ESPE/Estructura-de-datos-/3685-BackSquad/Proyecto/TreeCalculator
+BuildDirectory: C:/Users/Usuario/Documents/ESPE/Estructura-de-datos-/3685-BackSquad/Proyecto/TreeCalculator/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-2PO5ITV
+Site: STALIN_RIVERA
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-mingw32-make
+BuildName: Win32-MSBuild
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/PC/OneDrive/Documentos/GitHub/3685-BackSquad/Proyecto/TreeCalculator"
-MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Usuario/Documents/ESPE/Estructura-de-datos-/3685-BackSquad/Proyecto/TreeCalculator"
+MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/MinGW/bin/mingw32-g++.exe
-CompilerVersion: 6.3.0
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe
+CompilerVersion: 19.16.27045.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -80,7 +80,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/Program Files/CodeBlocks/MinGW/bin/gcov.exe
+CoverageCommand: C:/MinGW/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options
@@ -94,7 +94,7 @@ TimeOut: 1500
 # so would cause the system load to exceed this value.
 TestLoad: 
 
-UseLaunchers: 
+UseLaunchers: 0
 CurlOptions: 
 # warning, if you add new options here that have to do with submit,
 # you have to update cmCTestSubmitCommand.cxx

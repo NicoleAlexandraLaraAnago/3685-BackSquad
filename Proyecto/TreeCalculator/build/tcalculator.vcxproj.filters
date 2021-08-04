@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\opstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\opstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\tnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\opstree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Usuario\Documents\ESPE\Estructura-de-datos-\3685-BackSquad\Proyecto\TreeCalculator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{79395F36-E98E-317B-9439-7C44DC37F0D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0B853CE-8824-3B00-81F0-57D3BFDC2873}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

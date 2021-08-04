@@ -146,6 +146,41 @@ void Arbol<A>::eliminarCoincidencias(){
 
 }
 
+template <typename A>
+void Arbol<A>::removeEntre(NNodo<A>* padre, Node<A>*marca,bool izquierdo){
+    if(root !=nullptr){
+        Node<A>*principal;
+        int datoMarcato=marca->getValor();
+        int datoMinimo;
+        if(marca->getNodoIzquierdo()==nullptr && marca->getNodoDerecho()==nullptr){
+            principal=marca;
+            izquierdo==true ? padre->setNodoIzquierdo(nullptr): padre->setNodoDerecho(nullptr);
+            delete principal;
+        }
+        else 
+        if(marca->getNodoIzquierdo()==nullptr && marca->getNodoDerecho()!=nullptr){
+            izquierdo == true ? padre->setNodoIzquierdo(marca->getNodoDerecho(): padre->setNodoDerecho(marca->getNodoDerecho());
+            marca->setNodoIzquierdo(nullptr);
+            principal=marca;
+            delete principal;
+        }
+        else 
+        if(marca->getNodoIzquierdo()!=nullptr && marca->getNodoDerecho()==nullptr){
+          izquierdo == true ? padre->setNodoIzquierdo(marca->getNodoIzquierdo()): padre->setNodoDerecho(marca->getNodoIzquierdo());
+          marca->setNodoIzquierdo(nullptr);
+          principal=marca;
+          delete principal;
+        }else{
+            datoMinimo=encontrarMinimo(marca->getNodoDerecho());
+            eliminarNodoPri(datoMinimo, marca);
+            marca->setValor(datoMinimo);
+        }
+    }
+    else
+    std::cout<<"No coincide"<<endl;
+    system("pause");
+    getch();
+}
 
 template <typename A>
 void Tree<A>::insert(A dat){

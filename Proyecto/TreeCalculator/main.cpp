@@ -49,7 +49,15 @@ int main(int, char**) {
     do
     {
         system("cls");
-        cout << "\t\t\t*******BIENVENIDO AL SISTEMA********";
+      
+	cout<<"\n||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||";
+	cout<<"\n||||                                                                      ||||\n";
+	cout<<  "||||              UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE                 ||||";
+	cout<<"\n||||                       ESTRUCTURA DE DATOS                            ||||";
+	cout<<"\n||||INTEGRANTES: STALIN RIVERA,NICOLE LARA,Diego Jimenez                  ||||";
+	cout<<"\n||||                            NRC: 3685                                 ||||";
+	cout<<"\n||||                                                                      ||||";
+	cout<<"\n||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n\n\n\n\n";
         cout << "\n\n\tIngrese el Usuario: ";
         getline(cin, usuario);
 
