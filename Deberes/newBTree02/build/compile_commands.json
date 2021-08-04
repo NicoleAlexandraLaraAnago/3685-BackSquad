@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\ArbolB+.dir\\main.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\EstructuraDatos2021\\treeBp02\\main.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/main.cpp"
+},
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\ArbolB+.dir\\Menu.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\EstructuraDatos2021\\treeBp02\\Menu.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/Menu.cpp"
+},
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\ArbolB+.dir\\Menu_option.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\EstructuraDatos2021\\treeBp02\\Menu_option.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/Menu_option.cpp"
+},
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\ArbolB+.dir\\Aplicacion.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\EstructuraDatos2021\\treeBp02\\Aplicacion.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/treeBp02/Aplicacion.cpp"
+}
+]
