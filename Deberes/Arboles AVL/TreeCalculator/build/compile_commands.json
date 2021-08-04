@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/TreeCalculator/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DSFML_STATIC @CMakeFiles/tcalculator.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tcalculator.dir\\main.cpp.obj -c C:\\Users\\TOSHIBA\\Desktop\\EstructuraDatos2021\\TreeCalculator\\main.cpp",
+  "file": "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/TreeCalculator/main.cpp"
+}
+]

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/TOSHIBA/Desktop/EstructuraDatos2021/TreeCalculator/main.cpp" "CMakeFiles/tcalculator.dir/main.cpp.obj" "gcc" "CMakeFiles/tcalculator.dir/main.cpp.obj.d"
+  "C:/Users/PC/OneDrive/Documentos/GitHub/3685-BackSquad/Proyecto/TreeCalculator/main.cpp" "CMakeFiles/tcalculator.dir/main.cpp.obj" "gcc" "CMakeFiles/tcalculator.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

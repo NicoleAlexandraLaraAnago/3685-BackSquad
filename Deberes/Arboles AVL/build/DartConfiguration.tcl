@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL
-BuildDirectory: C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL/build
+SourceDirectory: C:/Users/PC/OneDrive/Documentos/GitHub/3685-BackSquad/Deberes/Arboles AVL
+BuildDirectory: C:/Users/PC/OneDrive/Documentos/GitHub/3685-BackSquad/Deberes/Arboles AVL/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-2DGABKI
+Site: DESKTOP-2PO5ITV
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/TOSHIBA/Desktop/3685-BackSquad/Deberes/Arboles AVL"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/PC/OneDrive/Documentos/GitHub/3685-BackSquad/Deberes/Arboles AVL"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/mingw64/bin/x86_64-w64-mingw32-g++.exe
-CompilerVersion: 10.2.0
+Compiler: C:/MinGW/bin/mingw32-g++.exe
+CompilerVersion: 6.3.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -80,7 +80,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/mingw64/bin/gcov.exe
+CoverageCommand: C:/Program Files/CodeBlocks/MinGW/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

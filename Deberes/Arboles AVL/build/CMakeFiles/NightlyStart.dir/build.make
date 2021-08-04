@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL"
+CMAKE_SOURCE_DIR = "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build"
+CMAKE_BINARY_DIR = "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build"
 
 # Utility rule file for NightlyStart.
 
@@ -81,6 +81,6 @@ CMakeFiles/NightlyStart.dir/clean:
 .PHONY : CMakeFiles/NightlyStart.dir/clean
 
 CMakeFiles/NightlyStart.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles\NightlyStart.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles\NightlyStart.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyStart.dir/depend
 

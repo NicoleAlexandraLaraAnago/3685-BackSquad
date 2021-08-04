@@ -29,6 +29,7 @@ class Tree{
         void removerEntre(Node<A>*,Node<A>*, bool);
         void generarGrafico();
         void graficarArbol(Node<A>*nodo);
+        
 
 
 };
@@ -144,6 +145,7 @@ void Arbol<A>::eliminarCoincidencias(){
     cout<<"!!ERROR"<<endl;
 
 }
+
 
 template <typename A>
 void Tree<A>::insert(A dat){

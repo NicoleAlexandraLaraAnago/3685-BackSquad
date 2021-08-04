@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL"
+CMAKE_SOURCE_DIR = "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build"
+CMAKE_BINARY_DIR = "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/treesAVL.dir/depend.make
@@ -71,72 +71,72 @@ include CMakeFiles/treesAVL.dir/flags.make
 CMakeFiles/treesAVL.dir/main.cpp.obj: CMakeFiles/treesAVL.dir/flags.make
 CMakeFiles/treesAVL.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/treesAVL.dir/main.cpp.obj: CMakeFiles/treesAVL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/treesAVL.dir/main.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/main.cpp.obj -MF CMakeFiles\treesAVL.dir\main.cpp.obj.d -o CMakeFiles\treesAVL.dir\main.cpp.obj -c "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/treesAVL.dir/main.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/main.cpp.obj -MF CMakeFiles\treesAVL.dir\main.cpp.obj.d -o CMakeFiles\treesAVL.dir\main.cpp.obj -c "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\main.cpp"
 
 CMakeFiles/treesAVL.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treesAVL.dir/main.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\main.cpp" > CMakeFiles\treesAVL.dir\main.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\main.cpp" > CMakeFiles\treesAVL.dir\main.cpp.i
 
 CMakeFiles/treesAVL.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treesAVL.dir/main.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\main.cpp" -o CMakeFiles\treesAVL.dir\main.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\main.cpp" -o CMakeFiles\treesAVL.dir\main.cpp.s
 
 CMakeFiles/treesAVL.dir/ArbolAVL.cpp.obj: CMakeFiles/treesAVL.dir/flags.make
 CMakeFiles/treesAVL.dir/ArbolAVL.cpp.obj: ../ArbolAVL.cpp
 CMakeFiles/treesAVL.dir/ArbolAVL.cpp.obj: CMakeFiles/treesAVL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/treesAVL.dir/ArbolAVL.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/ArbolAVL.cpp.obj -MF CMakeFiles\treesAVL.dir\ArbolAVL.cpp.obj.d -o CMakeFiles\treesAVL.dir\ArbolAVL.cpp.obj -c "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\ArbolAVL.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/treesAVL.dir/ArbolAVL.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/ArbolAVL.cpp.obj -MF CMakeFiles\treesAVL.dir\ArbolAVL.cpp.obj.d -o CMakeFiles\treesAVL.dir\ArbolAVL.cpp.obj -c "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\ArbolAVL.cpp"
 
 CMakeFiles/treesAVL.dir/ArbolAVL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treesAVL.dir/ArbolAVL.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\ArbolAVL.cpp" > CMakeFiles\treesAVL.dir\ArbolAVL.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\ArbolAVL.cpp" > CMakeFiles\treesAVL.dir\ArbolAVL.cpp.i
 
 CMakeFiles/treesAVL.dir/ArbolAVL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treesAVL.dir/ArbolAVL.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\ArbolAVL.cpp" -o CMakeFiles\treesAVL.dir\ArbolAVL.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\ArbolAVL.cpp" -o CMakeFiles\treesAVL.dir\ArbolAVL.cpp.s
 
 CMakeFiles/treesAVL.dir/Consola.cpp.obj: CMakeFiles/treesAVL.dir/flags.make
 CMakeFiles/treesAVL.dir/Consola.cpp.obj: ../Consola.cpp
 CMakeFiles/treesAVL.dir/Consola.cpp.obj: CMakeFiles/treesAVL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/treesAVL.dir/Consola.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/Consola.cpp.obj -MF CMakeFiles\treesAVL.dir\Consola.cpp.obj.d -o CMakeFiles\treesAVL.dir\Consola.cpp.obj -c "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Consola.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/treesAVL.dir/Consola.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/Consola.cpp.obj -MF CMakeFiles\treesAVL.dir\Consola.cpp.obj.d -o CMakeFiles\treesAVL.dir\Consola.cpp.obj -c "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Consola.cpp"
 
 CMakeFiles/treesAVL.dir/Consola.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treesAVL.dir/Consola.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Consola.cpp" > CMakeFiles\treesAVL.dir\Consola.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Consola.cpp" > CMakeFiles\treesAVL.dir\Consola.cpp.i
 
 CMakeFiles/treesAVL.dir/Consola.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treesAVL.dir/Consola.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Consola.cpp" -o CMakeFiles\treesAVL.dir\Consola.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Consola.cpp" -o CMakeFiles\treesAVL.dir\Consola.cpp.s
 
 CMakeFiles/treesAVL.dir/Menu.cpp.obj: CMakeFiles/treesAVL.dir/flags.make
 CMakeFiles/treesAVL.dir/Menu.cpp.obj: ../Menu.cpp
 CMakeFiles/treesAVL.dir/Menu.cpp.obj: CMakeFiles/treesAVL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/treesAVL.dir/Menu.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/Menu.cpp.obj -MF CMakeFiles\treesAVL.dir\Menu.cpp.obj.d -o CMakeFiles\treesAVL.dir\Menu.cpp.obj -c "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Menu.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/treesAVL.dir/Menu.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/Menu.cpp.obj -MF CMakeFiles\treesAVL.dir\Menu.cpp.obj.d -o CMakeFiles\treesAVL.dir\Menu.cpp.obj -c "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Menu.cpp"
 
 CMakeFiles/treesAVL.dir/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treesAVL.dir/Menu.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Menu.cpp" > CMakeFiles\treesAVL.dir\Menu.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Menu.cpp" > CMakeFiles\treesAVL.dir\Menu.cpp.i
 
 CMakeFiles/treesAVL.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treesAVL.dir/Menu.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Menu.cpp" -o CMakeFiles\treesAVL.dir\Menu.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Menu.cpp" -o CMakeFiles\treesAVL.dir\Menu.cpp.s
 
 CMakeFiles/treesAVL.dir/Nodo.cpp.obj: CMakeFiles/treesAVL.dir/flags.make
 CMakeFiles/treesAVL.dir/Nodo.cpp.obj: ../Nodo.cpp
 CMakeFiles/treesAVL.dir/Nodo.cpp.obj: CMakeFiles/treesAVL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/treesAVL.dir/Nodo.cpp.obj"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/Nodo.cpp.obj -MF CMakeFiles\treesAVL.dir\Nodo.cpp.obj.d -o CMakeFiles\treesAVL.dir\Nodo.cpp.obj -c "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Nodo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/treesAVL.dir/Nodo.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/treesAVL.dir/Nodo.cpp.obj -MF CMakeFiles\treesAVL.dir\Nodo.cpp.obj.d -o CMakeFiles\treesAVL.dir\Nodo.cpp.obj -c "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Nodo.cpp"
 
 CMakeFiles/treesAVL.dir/Nodo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/treesAVL.dir/Nodo.cpp.i"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Nodo.cpp" > CMakeFiles\treesAVL.dir\Nodo.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Nodo.cpp" > CMakeFiles\treesAVL.dir\Nodo.cpp.i
 
 CMakeFiles/treesAVL.dir/Nodo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/treesAVL.dir/Nodo.cpp.s"
-	C:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\Nodo.cpp" -o CMakeFiles\treesAVL.dir\Nodo.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\Nodo.cpp" -o CMakeFiles\treesAVL.dir\Nodo.cpp.s
 
 # Object files for target treesAVL
 treesAVL_OBJECTS = \
@@ -158,7 +158,7 @@ treesAVL.exe: CMakeFiles/treesAVL.dir/build.make
 treesAVL.exe: CMakeFiles/treesAVL.dir/linklibs.rsp
 treesAVL.exe: CMakeFiles/treesAVL.dir/objects1.rsp
 treesAVL.exe: CMakeFiles/treesAVL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable treesAVL.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable treesAVL.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\treesAVL.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/treesAVL.dir/clean:
 .PHONY : CMakeFiles/treesAVL.dir/clean
 
 CMakeFiles/treesAVL.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\TOSHIBA\Desktop\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles\treesAVL.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build" "C:\Users\PC\OneDrive\Documentos\GitHub\3685-BackSquad\Deberes\Arboles AVL\build\CMakeFiles\treesAVL.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/treesAVL.dir/depend
 
