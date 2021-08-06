@@ -1,204 +1,198 @@
-#pragma once
-#include "tnode.h"
+/**  
+ * @App Calculadora Polaca    
+ * UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+ * Departamento de ciencias de la computacion
+ * Estructura de datos
+ * Docente: Ing. Fernando Solis
+ * Tema: Convertir notacion infija a postfija, prefija y funcional
+ * 
+ * @date 05/07/2021
+ * @author Dalton Arevalo
+ * @author Diego Jimenez
+ * @author Stalin Rivera
+ * @author Lizzette Zapata
+ * @author Nicole Lara
+ */
+
+#pragma once 
+#include "node.h"
+#include <functional>
 
 template <typename A>
 class Tree{
     private:
-        TNode<A>* root = nullptr;
-        ofstream archivo;
-        // int size = 0;
+        Node<A>* cursor = nullptr;
+        int size = 0;
     public:
         Tree() = default;
-        bool Vacio();
-        void imprimirArbol(Nodo<A>*arbol);
-        Node<T>* crearNuevoNodo(A);
         void insert(A dat);
-        TNode<A>* getArbol();
-        void setArbol(Node<A>*);
-        void displayArbol();
-        void eliminarNodo(Node<A>* nodoElimina);
-        void mostrarArbol(Node<A>* arbol, int cont);
-        TNode<A>* search(A dat);
-        bool buscar(int  valor);
-        void eraser(A dat);
-        TNode<A>* getRoot();
-        void eliminarNodoPri(A, Node<A>*);
-        void eliminarCoincidencias();
-        Node<A>* getmin(Node<A>*raiz);
-        int encontrarMinimo(Node<A>*);
-        void removerEntre(Node<A>*,Node<A>*, bool);
-        void generarGrafico();
-        void graficarArbol(Node<A>*nodo);
-        
+        void eraser();
+        Node<A>* getLast();
+        Node<A>* getRoot();
+        Node<A>* getAt(int index);
+        A search();
+        int getSize();
+        bool isEmpty();
+        void forEach(std::function<void(Node<A>*, int)> callback);
+        void forEach(std::function<void(Node<A>*)> callback);
+        void forEach(std::function<void(A)> callback);
+        void forEach(std::function<void(A,int)> callback);
 
+        void forEachBack(std::function<void(Node<A>*, int)> callback);
 
+        Node<A>* find(std::function<bool(Node<A>*, int)> callback);
+        Node<A>* find(std::function<bool(Node<A>*)> callback);
+        Node<A>* find(std::function<bool(A)> callback);
+        Node<A>* find(std::function<bool(A, int)> callback);
 };
-template <typename A>
-bool Arbol<A>::Vacio(){
-    return (raiz==nullptr);
-}
-template <typename A>
-Node<A>*Arbol<A>::crearNuevoNodo(A valor){
-    Node<A>* temp=new Node<A>();
-    temp->setValor(valor);
-    return temp;
-}
-template <typename A>
-Node<A>* Arbol<A>::getArbol(){
-    return this->root;
-}
-template <typename A>
-void Arbol<A>::setArbol(Nodo<A>* _arbol){
-    this->root=_arbol;
-}
-template <typename A>
-void Arbol<A>::displayArbol(){
-    imprimirArbol(root);
-    cout<<endl<<endl;
-    cout<<endl<<endl;
-    mostrarArbol(root, 0);
-}
-template <typename A>
-void Arbol<A>::imprimirArbol(Node<A>* arbol){
-    if(arbol!==NULL){
-        imprimirArbol(arbol->getNodoIzquierdo());
-        cout<<" "<<arbol->getValor()<<endl" ";
-        imprimirArbol(arbol->getNodoDerecho());
-    }
-}
-template<typename A>
-Node<A>* arbol<A>::buscar(int Valor, Node<A> *temp){
 
-    if(temp != nullptr)
+template <typename A>
+bool Tree<A>::isEmpty(){
+    return (cursor == nullptr);
+}
+
+template <typename A>
+int Tree<A>::getSize(){
+    return this->size;
+}
+
+template <typename A>
+Node<A>* Tree<A>::getLast(){
+    Node<A>* tmp = cursor;
+    while (tmp->getNext() != nullptr)
     {
-        if(Valor==temp->getValor())
-            return temp;
-        if(Valor<temp->getValor())
-            return buscar(Valor, temp->getNodoIzquierdo());
-        else
-            return buscar(Valor, temp->getNodoDerecho());
-
-    }else{
-        return nullptr;
+        tmp = tmp->getNext();
     }
-}
-
-template<typename A>
-bool Arbol<A>::buscar(int valor){
-Node<A>* temp = buscar(valor, root);
-if(temp==nullptr){
-    return false;
-}
-else if(temp->getValor()==valor){
-    return true;
-}else{
-    return false;
-}
-}
-template<typename A>
-void Arbol<A>::eliminar(A dato){
-    eliminarNodoPri(dato, root);
-}
-template <typename A>
-void Arbol<A>::eliminarNodoPri(A dato,Node<A>*privado){
-    if(root !=nullptr){
-        if(root->getValor() == dato)
-            eliminarCoincidencias();
-        else{
-            if(dato < privado->gatValor()&&privado->primero->getNodoIzquierda() !=nullptr){
-               privado->getNodoIzquierdo()->getValor()==dato ? removeEntre(privado, getNodoIzquierdo(), true): elominarNodoPri(dato, privado->getNodoIzquierdo());
-
-            }
-            else
-            if(dato > privado->getValor()&& privado->getNodoDerecha()!=nullptr){
-                privado->getNodoDerecho()->getValor() == dato ? removeEntre(privado, privado->getNodoDerecho(),false) : eliminarNodoPri(dato, privado->getNodoDerecho());
-            }
-            else
-                cout<< "No se ha encontrado el dato en el arbol"<<endl;
-        }
-    }else
-    cout<<"El arbol esta vacio"<<endl;
-}
-
-template<typename A>
-void Arbol<A>::eliminarCoincidencias(){
-    if(root !=nullptr){
-        Node<A>* datoPrivado = root;
-        int datoRoot = root->getValor();
-        int datoMinimo;
-        if (root ->getNodoIzquierdo()==nullptr&&root->getNodoDerecho()==nullptr){
-           delete datoPrivado;
-           root = nullptr;
-        }
-        else
-        if(root->getNodoIzquierdo()!=nullptr&&root->getNodoDerecho()==nullptr){
-            root=root->getNodoIzquierdo();
-            datoPrivado->detNodoIzquierdo(nullptr);
-            delete datoPrivado;
-        }else
-        if(root->getNodoIzquierdo()==nullptr&&root->getNodoDerecho()!=nullptr){
-           datoMinimo = encontrarMinimo(root->getNodoDerecho());
-            eliminarNodoPri(datoMinimo, root);
-            root->setValor(datoMinimo);
-        }
-    }else
-    cout<<"!!ERROR"<<endl;
-
+    return tmp;
 }
 
 template <typename A>
-void Arbol<A>::removeEntre(NNodo<A>* padre, Node<A>*marca,bool izquierdo){
-    if(root !=nullptr){
-        Node<A>*principal;
-        int datoMarcato=marca->getValor();
-        int datoMinimo;
-        if(marca->getNodoIzquierdo()==nullptr && marca->getNodoDerecho()==nullptr){
-            principal=marca;
-            izquierdo==true ? padre->setNodoIzquierdo(nullptr): padre->setNodoDerecho(nullptr);
-            delete principal;
-        }
-        else 
-        if(marca->getNodoIzquierdo()==nullptr && marca->getNodoDerecho()!=nullptr){
-            izquierdo == true ? padre->setNodoIzquierdo(marca->getNodoDerecho(): padre->setNodoDerecho(marca->getNodoDerecho());
-            marca->setNodoIzquierdo(nullptr);
-            principal=marca;
-            delete principal;
-        }
-        else 
-        if(marca->getNodoIzquierdo()!=nullptr && marca->getNodoDerecho()==nullptr){
-          izquierdo == true ? padre->setNodoIzquierdo(marca->getNodoIzquierdo()): padre->setNodoDerecho(marca->getNodoIzquierdo());
-          marca->setNodoIzquierdo(nullptr);
-          principal=marca;
-          delete principal;
-        }else{
-            datoMinimo=encontrarMinimo(marca->getNodoDerecho());
-            eliminarNodoPri(datoMinimo, marca);
-            marca->setValor(datoMinimo);
-        }
+Node<A>* Tree<A>::getRoot(){
+    return cursor;
+}
+
+template<typename A>
+Node<A>* Tree<A>::getAt(int index){
+    Node<A>* tmp = cursor;
+    int i = 0;
+    while (tmp->getNext() != nullptr && index != i)
+    {
+        tmp = tmp->getNext();
+        i++;
     }
-    else
-    std::cout<<"No coincide"<<endl;
-    system("pause");
-    getch();
+    return tmp;
 }
 
 template <typename A>
 void Tree<A>::insert(A dat){
-
-
+    size ++;
+    Node<A>* recent = new Node<A>(dat);
+    if(isEmpty()){
+        this->cursor = recent;
+        return;
+    }else{
+        Node<A>* last = getLast();
+        recent->setPrevious(last);
+        last->setNext(recent);
+    }
 }
 
 template <typename A>
-TNode<A>* Tree<A>::search(A dat){
-
+void Tree<A>::eraser(){
+    if(getSize() ==1){
+        Node<A>* aux = cursor;
+        cursor =nullptr;
+    }else{
+        Node<A>* last = getLast();
+        Node<A>* pseudoLast = getAt(size-2);
+        pseudoLast->setNext(nullptr);
+        delete last;
+    }
+    size --;
 }
 
 template <typename A>
-void Tree<A>::eraser(A dat){
-
+A Tree<A>::search(){
+    Node<A>* last = getLast();
+    return last->getDat();
 }
 
 template <typename A>
-TNode<A>* Tree<A>::getRoot(){
-    return this->root;
+void Tree<A>::forEach(std::function<void(Node<A>*, int)> callback) {
+    Node<A>* tmp = cursor;
+    int index = 0;
+    while (tmp != nullptr)
+    {
+        callback(tmp,index);
+        tmp = tmp->getNext();
+        index++;
+    }
+}
+
+template <typename A>
+void Tree<A>::forEachBack(std::function<void(Node<A>*, int)> callback) {
+    Node<A>* tmp = getLast();
+    int index = size;
+    while (tmp != nullptr)
+    {
+        callback(tmp,index);
+        tmp = tmp->getPrevious();
+        index--;
+    }
+}
+
+template <typename A>
+void Tree<A>::forEach(std::function<void(Node<A>*)> callback){
+    forEach([&](Node<A>* tmp, int index){
+        callback(tmp);
+        //callback(tmp->getDat());
+    });
+}
+
+template <typename A>
+void Tree<A>::forEach(std::function<void(A)> callback){
+    forEach([&](Node<A>* tmp, int index){
+        callback(tmp->getDat());
+    });
+}
+        
+template <typename A>        
+void Tree<A>::forEach(std::function<void(A,int)> callback){
+    forEach([&](Node<A>* tmp, int index){
+        callback(tmp->getDat(), index);
+    });
+}
+
+template <typename A>
+Node<A>* Tree<A>::find(std::function<bool(Node<A>*, int)> callback){
+    Node<A>* node = cursor;
+    int index = 0;
+
+    while(node != nullptr){
+        if (callback(node, index++)){
+            return node;
+        }
+        node = node->getNext();
+    }
+    return nullptr;
+}
+template <typename A>        
+Node<A>* Tree<A>::find(std::function<bool(Node<A>*)> callback){
+    return find([&] (Node<A>* node, int index) -> bool{
+        return callback(node);
+    });
+}
+
+template <typename A>        
+Node<A>* Tree<A>::find(std::function<bool(A)> callback){
+    return find([&] (Node<A>* node, int index) -> bool {
+        return callback(node->getDat());
+    });
+}
+
+template <typename A>        
+Node<A>* Tree<A>::find(std::function<bool(A, int)> callback){
+    return find([&](Node<A>* node, int index) -> bool{
+        return callback(node->getDat(), index);
+    });
 }

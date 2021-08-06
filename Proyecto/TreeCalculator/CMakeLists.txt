@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.0.0)
 project(tcalculator VERSION 0.1.0)
 
@@ -16,7 +17,16 @@ include_directories(${IMGUI_SFML_DIR}/include)
 include(CTest)
 enable_testing()
 
-add_executable(tcalculator main.cpp node.h stack.h opstr.h opstack.h tnode.h tree.h opstree.h)
+add_executable(
+    tcalculator main.cpp 
+    node.h tree.h 
+    opstr.h opstack.h 
+    tnode.h tree.h 
+    opstree.h 
+    Menu_option.h Menu_option.cpp 
+    Aplicacion.h Aplicacion.cpp 
+    Menu.h Menu.cpp 
+)
 
 target_link_directories(tcalculator PUBLIC "${SFML_DIR}/lib")
 target_link_directories(tcalculator PUBLIC "${IMGUI_SFML_DIR}/lib")

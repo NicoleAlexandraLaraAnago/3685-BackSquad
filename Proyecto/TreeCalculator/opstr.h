@@ -1,4 +1,5 @@
-/**      
+/**  
+ * @App Calculadora Polaca    
  * UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
  * Departamento de ciencias de la computacion
  * Estructura de datos
@@ -6,28 +7,33 @@
  * Tema: Convertir notacion infija a postfija, prefija y funcional
  * 
  * @date 05/07/2021
+ * @author Dalton Arevalo
  * @author Diego Jimenez
+ * @author Stalin Rivera
+ * @author Lizzette Zapata
+ * @author Nicole Lara
  */
+
 #pragma once 
-#include "stack.h"
+#include "tree.h"
 #include <string>
 #include <cstring>
 #include <iostream>
 
-void strToList(Stack<char> &lst, std::string str){
+void strToList(Tree<char> &lst, std::string str){
     //char* cadena = new char[str.length() + 1];
     char* cadena = new char;
     std::strcpy(cadena,str.c_str());
     int i =0;
     while(*(cadena+i) != '\0'){
         if(*(cadena+i) != ' '){
-            lst.push_(*(cadena+i));
+            lst.insert(*(cadena+i));
         }
         i++;
     }
 }
 
-void operatorToList(Stack<char> &lst, std::string str){
+void operatorToList(Tree<char> &lst, std::string str){
     //char* cadena = new char[str.length() + 1];
     char* cadena = new char;
     std::strcpy(cadena,str.c_str());
@@ -36,7 +42,7 @@ void operatorToList(Stack<char> &lst, std::string str){
         if(*(cadena+i) != ' ' &&
         (*(cadena+i) == '+' || *(cadena+i) =='-' ||
         *(cadena+i) == '*' || *(cadena+i) == '/')){
-            lst.push_(*(cadena+i));
+            lst.insert(*(cadena+i));
         }
         i++;
     }
@@ -60,28 +66,28 @@ std::string infijoToPostfijo(std::string str){
     std::string resultado;
     char *cadena = new char;
     std::strcpy(cadena,str.c_str());
-    Stack<char> operadores;
+    Tree<char> operadores;
     int i =0;
     while(*(cadena + i) != '\0'){
         if (isOperator(*(cadena + i))){
             char aux = *(cadena+i);
             int current = precedencia(aux);
             int st = 0;
-            operadores.isEmpty()? st =0 : st= precedencia(operadores.peak());
+            operadores.isEmpty()? st =0 : st= precedencia(operadores.search());
             while( !operadores.isEmpty() &&
             st > current){
-                resultado += operadores.peak();
-                operadores.pop();
+                resultado += operadores.search();
+                operadores.eraser();
             }
-            operadores.push_(*(cadena+i));
+            operadores.insert(*(cadena+i));
         }else if(*(cadena+i) == '('){
-            operadores.push_(*(cadena+i));
+            operadores.insert(*(cadena+i));
         }else if (*(cadena+i) == ')'){
-            while(operadores.peak() != '('){
-                resultado += operadores.peak();
-                operadores.pop();
+            while(operadores.search() != '('){
+                resultado += operadores.search();
+                operadores.eraser();
             }
-            operadores.pop();
+            operadores.eraser();
         }else{
             resultado += *(cadena +i);
         }
@@ -89,8 +95,8 @@ std::string infijoToPostfijo(std::string str){
     }
     while (!operadores.isEmpty())
     {
-        resultado += operadores.peak();
-        operadores.pop();
+        resultado += operadores.search();
+        operadores.eraser();
     }
     return resultado;
 }
@@ -114,7 +120,7 @@ std::string infijoToFuncional(std::string str){
     std::string util = "";
     char *cadena = new char;
     std::strcpy(cadena,str.c_str());
-    Stack<char> operadores;
+    Tree<char> operadores;
     int i =0;
     int j = 0;
     int x = 0;
@@ -124,26 +130,26 @@ std::string infijoToFuncional(std::string str){
             char aux = *(cadena+i);
             int current = precedencia(aux);
             int st = 0;
-            operadores.isEmpty()? st =0 : st= precedencia(operadores.peak());
+            operadores.isEmpty()? st =0 : st= precedencia(operadores.search());
             while( !operadores.isEmpty() &&
             st > current){
-                util += operatorToFunction(operadores.peak()) + "(" + *(z+x) + ", ";
+                util += operatorToFunction(operadores.search()) + "(" + *(z+x) + ", ";
                 //util += operadores.peak();
-                operadores.pop();
+                operadores.eraser();
                 x++;
             }
-            operadores.push_(*(cadena+i));
+            operadores.insert(*(cadena+i));
             j++;
         }else if(*(cadena+i) == '('){
-            operadores.push_(*(cadena+i));
+            operadores.insert(*(cadena+i));
         }else if (*(cadena+i) == ')'){
-            while(operadores.peak() != '('){
-                util += operatorToFunction(operadores.peak()) + "(" + *(z+x) + ", ";
+            while(operadores.search() != '('){
+                util += operatorToFunction(operadores.search()) + "(" + *(z+x) + ", ";
                 
-                operadores.pop();
+                operadores.eraser();
                 x++;
             }
-            operadores.pop();
+            operadores.eraser();
         }else{
             resultado += *(cadena +i);
             std::strcpy(z,resultado.c_str());
@@ -158,9 +164,9 @@ std::string infijoToFuncional(std::string str){
     //util += operatorToFunction(operadores.peak()) + "(" + *(var +j-1) + ", " + *(var +j) +")";
     while (!operadores.isEmpty() && *(var + w) != '\0')
     {
-        util = operatorToFunction(operadores.peak()) + "(" + *(var +w-1) + ", "+ util;
+        util = operatorToFunction(operadores.search()) + "(" + *(var +w-1) + ", "+ util;
         //resultado += operadores.peak();
-        operadores.pop();
+        operadores.eraser();
         w--;
         j++;
     }

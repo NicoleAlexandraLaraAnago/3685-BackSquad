@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto de la Polaca Inversa: Referencia del Archivo tree.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="doxywizard.exe"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto de la Polaca Inversa
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de los arboles binarios</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo tree.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="tnode_8h_source.html">tnode.h</a>&quot;</code><br />
+</div>
+<p><a href="tree_8h_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tree.html">Tree&lt; A &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><dl class="section version"><dt>Versión</dt><dd>4.8.7 </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd>05/08/2021 @autor Stalin, Lizzete, Diego, Nicol y Dalton @title arbol para la polaca <div class="fragment"><div class="line">de las funciones</div>
+<div class="line">     <span class="keywordtype">bool</span> Vacio();</div>
+<div class="line">     <span class="keywordtype">void</span> imprimirArbol(Nodo&lt;A&gt;*arbol);</div>
+<div class="line">     <a class="code" href="class_node.html">Node&lt;T&gt;</a>* crearNuevoNodo(A);</div>
+<div class="line">     <span class="keywordtype">void</span> insert(A dat);</div>
+<div class="line">     <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* getArbol();</div>
+<div class="line">     <span class="keywordtype">void</span> setArbol(<a class="code" href="class_node.html">Node&lt;A&gt;</a>*);</div>
+<div class="line">     <span class="keywordtype">void</span> displayArbol();</div>
+<div class="line">     <span class="keywordtype">void</span> eliminarNodo(<a class="code" href="class_node.html">Node&lt;A&gt;</a>* nodoElimina);</div>
+<div class="line">     <span class="keywordtype">void</span> mostrarArbol(<a class="code" href="class_node.html">Node&lt;A&gt;</a>* arbol, <span class="keywordtype">int</span> cont);</div>
+<div class="line">     <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* search(A dat);</div>
+<div class="line">     <span class="keywordtype">bool</span> buscar(<span class="keywordtype">int</span>  valor);</div>
+<div class="line">     <span class="keywordtype">void</span> eraser(A dat);</div>
+<div class="line">     <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* getRoot();</div>
+<div class="line">     <span class="keywordtype">void</span> eliminarNodoPri(A, <a class="code" href="class_node.html">Node&lt;A&gt;</a>*);</div>
+<div class="line">     <span class="keywordtype">void</span> eliminarCoincidencias();</div>
+<div class="line">     <a class="code" href="class_node.html">Node&lt;A&gt;</a>* getmin(<a class="code" href="class_node.html">Node&lt;A&gt;</a>*raiz);</div>
+<div class="line">     <span class="keywordtype">int</span> encontrarMinimo(<a class="code" href="class_node.html">Node&lt;A&gt;</a>*);</div>
+<div class="line">     <span class="keywordtype">void</span> removerEntre(<a class="code" href="class_node.html">Node&lt;A&gt;</a>*,<a class="code" href="class_node.html">Node&lt;A&gt;</a>*, <span class="keywordtype">bool</span>);</div>
+<div class="line">     <span class="keywordtype">void</span> generarGrafico();</div>
+<div class="line">     <span class="keywordtype">void</span> graficarArbol(<a class="code" href="class_node.html">Node&lt;A&gt;</a>*nodo);</div>
+<div class="ttc" id="aclass_node_html"><div class="ttname"><a href="class_node.html">Node</a></div><div class="ttdef"><b>Definition:</b> node.h:17</div></div>
+<div class="ttc" id="aclass_t_node_html"><div class="ttname"><a href="class_t_node.html">TNode</a></div><div class="ttdoc">class tnode</div><div class="ttdef"><b>Definition:</b> tnode.h:24</div></div>
+</div><!-- fragment --> </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

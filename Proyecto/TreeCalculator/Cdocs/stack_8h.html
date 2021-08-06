@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto de la Polaca Inversa: Referencia del Archivo stack.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="doxywizard.exe"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto de la Polaca Inversa
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de los arboles binarios</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo stack.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="node_8h_source.html">node.h</a>&quot;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+</div>
+<p><a href="stack_8h_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stack.html">Stack&lt; A &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class <a class="el" href="class_stack.html" title="class Stack">Stack</a>  <a href="class_stack.html#details">Más...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><dl class="section version"><dt>Versión</dt><dd>4.8.7 </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd>05/08/2021 @autor Stalin, Lizzete, Diego, Nicol y Dalton @title pila para la polaca <div class="fragment"><div class="line"> de las funciones</div>
+<div class="line"><a class="code" href="class_node.html">Node&lt;A&gt;</a>* <a class="code" href="class_stack.html#a918fffdb3f3c300081495e16adceaf71">Stack&lt;A&gt;::getAt</a>(<span class="keywordtype">int</span> index){</div>
+<div class="line">   <a class="code" href="class_node.html">Node&lt;A&gt;</a>* tmp = cursor;</div>
+<div class="line">   <span class="keywordtype">int</span> i = 0;</div>
+<div class="line">   <span class="keywordflow">while</span> (tmp-&gt;<a class="code" href="class_node.html#ab59a85a8182892b3ab21870468a52224">getNext</a>() != <span class="keyword">nullptr</span> &amp;&amp; index != i);</div>
+<div class="line">   cout&lt;&lt;<span class="stringliteral">&quot;Indice de la funcion&quot;</span></div>
+<div class="ttc" id="aclass_node_html"><div class="ttname"><a href="class_node.html">Node</a></div><div class="ttdef"><b>Definition:</b> node.h:17</div></div>
+<div class="ttc" id="aclass_node_html_ab59a85a8182892b3ab21870468a52224"><div class="ttname"><a href="class_node.html#ab59a85a8182892b3ab21870468a52224">Node::getNext</a></div><div class="ttdeci">Node&lt; A &gt; * getNext()</div><div class="ttdoc">Obtiene nodo siguiente get next.</div><div class="ttdef"><b>Definition:</b> node.h:82</div></div>
+<div class="ttc" id="aclass_stack_html_a918fffdb3f3c300081495e16adceaf71"><div class="ttname"><a href="class_stack.html#a918fffdb3f3c300081495e16adceaf71">Stack::getAt</a></div><div class="ttdeci">Node&lt; A &gt; * getAt(int index)</div><div class="ttdoc">At.</div><div class="ttdef"><b>Definition:</b> stack.h:127</div></div>
+</div><!-- fragment --> </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

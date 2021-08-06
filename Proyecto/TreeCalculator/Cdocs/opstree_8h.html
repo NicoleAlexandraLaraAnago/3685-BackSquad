@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto de la Polaca Inversa: Referencia del Archivo opstree.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="doxywizard.exe"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto de la Polaca Inversa
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de los arboles binarios</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo opstree.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="tnode_8h_source.html">tnode.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stack_8h_source.html">stack.h</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &quot;<a class="el" href="opstack_8h_source.html">opstack.h</a>&quot;</code><br />
+</div>
+<p><a href="opstree_8h_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a02a73390a00851934462f3f93aa20026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_t_node.html">TNode</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstree_8h.html#a02a73390a00851934462f3f93aa20026">generateTree</a> (<a class="el" href="class_stack.html">Stack</a>&lt; std::string &gt; str)</td></tr>
+<tr class="memdesc:a02a73390a00851934462f3f93aa20026"><td class="mdescLeft">&#160;</td><td class="mdescRight">generateTree  <a href="opstree_8h.html#a02a73390a00851934462f3f93aa20026">Más...</a><br /></td></tr>
+<tr class="separator:a02a73390a00851934462f3f93aa20026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><dl class="section version"><dt>Versión</dt><dd>4.8.7 </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd>05/08/2021 @autor Stalin, Lizzete, Diego, Nicol y Dalton @title arbol para la polaca inversa <div class="fragment"><div class="line"> de las funciones</div>
+<div class="line"><a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> <a class="code" href="opstree_8h.html#a02a73390a00851934462f3f93aa20026">generateTree</a>(<a class="code" href="class_stack.html">Stack&lt;std::string&gt;</a> str){</div>
+<div class="line">    <span class="keywordflow">if</span>(!<a class="code" href="opstr_8h.html#ac792f08ed5f8708833ac64a61310dd03">isOperator</a>(tmp-&gt;getDat()) &amp;&amp; !<a class="code" href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">isFuntion</a>(tmp-&gt;getDat())){</div>
+<div class="line">       operands.push_(tnode);</div>
+<div class="line">    cout&lt;&lt;<span class="stringliteral">&quot;Aqui se usa isOperator, isFuntional&quot;</span></div>
+<div class="line">}</div>
+<div class="ttc" id="aclass_stack_html"><div class="ttname"><a href="class_stack.html">Stack</a></div><div class="ttdoc">class Stack</div><div class="ttdef"><b>Definition:</b> stack.h:26</div></div>
+<div class="ttc" id="aclass_t_node_html"><div class="ttname"><a href="class_t_node.html">TNode</a></div><div class="ttdoc">class tnode</div><div class="ttdef"><b>Definition:</b> tnode.h:24</div></div>
+<div class="ttc" id="aopstack_8h_html_a94414e8e477d58b50db9920050296b53"><div class="ttname"><a href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">isFuntion</a></div><div class="ttdeci">bool isFuntion(std::string c)</div><div class="ttdoc">isFuntion Indica las funciones trigonometricas</div><div class="ttdef"><b>Definition:</b> opstack.h:60</div></div>
+<div class="ttc" id="aopstr_8h_html_ac792f08ed5f8708833ac64a61310dd03"><div class="ttname"><a href="opstr_8h.html#ac792f08ed5f8708833ac64a61310dd03">isOperator</a></div><div class="ttdeci">bool isOperator(char c)</div><div class="ttdoc">operador isOperator lee operaciones matematicas basicas</div><div class="ttdef"><b>Definition:</b> opstr.h:55</div></div>
+<div class="ttc" id="aopstree_8h_html_a02a73390a00851934462f3f93aa20026"><div class="ttname"><a href="opstree_8h.html#a02a73390a00851934462f3f93aa20026">generateTree</a></div><div class="ttdeci">TNode&lt; std::string &gt; generateTree(Stack&lt; std::string &gt; str)</div><div class="ttdoc">generateTree</div><div class="ttdef"><b>Definition:</b> opstree.h:26</div></div>
+</div><!-- fragment --> </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones</h2>
+<a id="a02a73390a00851934462f3f93aa20026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02a73390a00851934462f3f93aa20026">&#9670;&nbsp;</a></span>generateTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_t_node.html">TNode</a>&lt;std::string&gt; generateTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_stack.html">Stack</a>&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>generateTree </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">string</td><td>str </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>TNode&lt;std::string&gt; Aqui se retorna la genracion del arbol </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

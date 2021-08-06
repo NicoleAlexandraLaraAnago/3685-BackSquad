@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto de la Polaca Inversa: Fichero Fuente tnode.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="doxywizard.exe"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto de la Polaca Inversa
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de los arboles binarios</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">tnode.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tnode_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_t_node.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_t_node.html">TNode</a>{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">public</span>:<span class="comment">//borrar public despues de cdocs</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_t_node.html#a8a3ee7188f8f8b3fcb89cf4c10ad3e34">   30</a></span>&#160;        A <a class="code" href="class_t_node.html#a8a3ee7188f8f8b3fcb89cf4c10ad3e34">dat</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_t_node.html#a2c0975002f263dd1be067517f936dffc">   31</a></span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a2c0975002f263dd1be067517f936dffc">right</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_t_node.html#af247fe13a4067cd68c6ec9ad9deada10">   32</a></span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#af247fe13a4067cd68c6ec9ad9deada10">left</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_t_node.html#a5aca68b3e70c58b86611ffc3effc03da">   33</a></span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a5aca68b3e70c58b86611ffc3effc03da">up</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">TNode</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">TNode</a>(A <a class="code" href="class_t_node.html#a8a3ee7188f8f8b3fcb89cf4c10ad3e34">dat</a>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">TNode</a>(<span class="keyword">const</span> <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a> &amp;tnode);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        A <a class="code" href="class_t_node.html#afb266a5559131eba5c6dec0d6ade4b85">getDat</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_t_node.html#a125d29a3d2356f2196dea374083c2c08">setDat</a>(A <a class="code" href="class_t_node.html#a8a3ee7188f8f8b3fcb89cf4c10ad3e34">dat</a>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#af9875deff80e1c8bf982855614ea3e49">getRight</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">setRight</a>(<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a2c0975002f263dd1be067517f936dffc">right</a>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a638bbe6819e22aab2a1b39a854597756">getLeft</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_t_node.html#aa89a9778440a020484d235ca327678a1">setLeft</a>(<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#af247fe13a4067cd68c6ec9ad9deada10">left</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a220ad6f0f286de07f15175a3d28ef52b">getUp</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_t_node.html#a4b3d8d972aed4a2a4d30a715633b2e65">setUp</a>(<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a5aca68b3e70c58b86611ffc3effc03da">up</a>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_t_node.html#a97ff8fd51e5096d6f54c485d636b7e5d">isLeaf</a>();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">   62</a></span>&#160;<a class="code" href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">TNode&lt;A&gt;::TNode</a>(){</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_t_node.html#aaefba808c8ec74ef5d3db1b325313099">   71</a></span>&#160;<a class="code" href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">TNode&lt;A&gt;::TNode</a>(A dat){</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    this-&gt;dat = dat;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_t_node.html#a062a2f2b9a8c9a6307da2e2179408f32">   82</a></span>&#160;<a class="code" href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">TNode&lt;A&gt;::TNode</a>(<span class="keyword">const</span> <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a> &amp;tnode){</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    dat = tnode.<a class="code" href="class_t_node.html#a8a3ee7188f8f8b3fcb89cf4c10ad3e34">dat</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    right = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span>(tnode.<a class="code" href="class_t_node.html#a2c0975002f263dd1be067517f936dffc">right</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        *right = *tnode.<a class="code" href="class_t_node.html#a2c0975002f263dd1be067517f936dffc">right</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">else</span> </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        right = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    left = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span>(tnode.<a class="code" href="class_t_node.html#af247fe13a4067cd68c6ec9ad9deada10">left</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        *left = *tnode.<a class="code" href="class_t_node.html#af247fe13a4067cd68c6ec9ad9deada10">left</a>; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">else</span> </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        left = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    up = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">if</span>(tnode.<a class="code" href="class_t_node.html#a5aca68b3e70c58b86611ffc3effc03da">up</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        *up = *tnode.<a class="code" href="class_t_node.html#af247fe13a4067cd68c6ec9ad9deada10">left</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">else</span> </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        up = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="class_t_node.html#afb266a5559131eba5c6dec0d6ade4b85">  108</a></span>&#160;A <a class="code" href="class_t_node.html#afb266a5559131eba5c6dec0d6ade4b85">TNode&lt;A&gt;::getDat</a>(){</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">return</span> this-&gt;dat;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="class_t_node.html#a125d29a3d2356f2196dea374083c2c08">  118</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_t_node.html#a125d29a3d2356f2196dea374083c2c08">TNode&lt;A&gt;::setDat</a>(A dat){</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    this-&gt;dat = dat;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="class_t_node.html#af9875deff80e1c8bf982855614ea3e49">  128</a></span>&#160;<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#af9875deff80e1c8bf982855614ea3e49">TNode&lt;A&gt;::getRight</a>(){</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> right;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">  138</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">TNode&lt;A&gt;::setRight</a>(<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* right){</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    this-&gt;right = right;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="class_t_node.html#a638bbe6819e22aab2a1b39a854597756">  148</a></span>&#160;<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a638bbe6819e22aab2a1b39a854597756">TNode&lt;A&gt;::getLeft</a>(){</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">return</span> left;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;}</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="class_t_node.html#aa89a9778440a020484d235ca327678a1">  158</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_t_node.html#aa89a9778440a020484d235ca327678a1">TNode&lt;A&gt;::setLeft</a>(<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* left){</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    this-&gt;left = left;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="class_t_node.html#a220ad6f0f286de07f15175a3d28ef52b">  168</a></span>&#160;<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* <a class="code" href="class_t_node.html#a220ad6f0f286de07f15175a3d28ef52b">TNode&lt;A&gt;::getUp</a>(){</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">return</span> up;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="class_t_node.html#a4b3d8d972aed4a2a4d30a715633b2e65">  179</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_t_node.html#a4b3d8d972aed4a2a4d30a715633b2e65">TNode&lt;A&gt;::setUp</a>(<a class="code" href="class_t_node.html">TNode&lt;A&gt;</a>* up){</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    this-&gt;up = up;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="class_t_node.html#a97ff8fd51e5096d6f54c485d636b7e5d">  191</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_t_node.html#a97ff8fd51e5096d6f54c485d636b7e5d">TNode&lt;A&gt;::isLeaf</a>(){</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">if</span>(right == <span class="keyword">nullptr</span> &amp;&amp; left == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div>
+<div class="ttc" id="aclass_t_node_html"><div class="ttname"><a href="class_t_node.html">TNode</a></div><div class="ttdoc">class tnode</div><div class="ttdef"><b>Definition:</b> tnode.h:24</div></div>
+<div class="ttc" id="aclass_t_node_html_a125d29a3d2356f2196dea374083c2c08"><div class="ttname"><a href="class_t_node.html#a125d29a3d2356f2196dea374083c2c08">TNode::setDat</a></div><div class="ttdeci">void setDat(A dat)</div><div class="ttdoc">setDat</div><div class="ttdef"><b>Definition:</b> tnode.h:118</div></div>
+<div class="ttc" id="aclass_t_node_html_a220ad6f0f286de07f15175a3d28ef52b"><div class="ttname"><a href="class_t_node.html#a220ad6f0f286de07f15175a3d28ef52b">TNode::getUp</a></div><div class="ttdeci">TNode&lt; A &gt; * getUp()</div><div class="ttdoc">getUp getter de la variable up(arriba)</div><div class="ttdef"><b>Definition:</b> tnode.h:168</div></div>
+<div class="ttc" id="aclass_t_node_html_a2c0975002f263dd1be067517f936dffc"><div class="ttname"><a href="class_t_node.html#a2c0975002f263dd1be067517f936dffc">TNode::right</a></div><div class="ttdeci">TNode&lt; A &gt; * right</div><div class="ttdef"><b>Definition:</b> tnode.h:31</div></div>
+<div class="ttc" id="aclass_t_node_html_a4b3d8d972aed4a2a4d30a715633b2e65"><div class="ttname"><a href="class_t_node.html#a4b3d8d972aed4a2a4d30a715633b2e65">TNode::setUp</a></div><div class="ttdeci">void setUp(TNode&lt; A &gt; *up)</div><div class="ttdoc">setUp setter de la variable up(arriba)</div><div class="ttdef"><b>Definition:</b> tnode.h:179</div></div>
+<div class="ttc" id="aclass_t_node_html_a5aca68b3e70c58b86611ffc3effc03da"><div class="ttname"><a href="class_t_node.html#a5aca68b3e70c58b86611ffc3effc03da">TNode::up</a></div><div class="ttdeci">TNode&lt; A &gt; * up</div><div class="ttdef"><b>Definition:</b> tnode.h:33</div></div>
+<div class="ttc" id="aclass_t_node_html_a638bbe6819e22aab2a1b39a854597756"><div class="ttname"><a href="class_t_node.html#a638bbe6819e22aab2a1b39a854597756">TNode::getLeft</a></div><div class="ttdeci">TNode&lt; A &gt; * getLeft()</div><div class="ttdoc">getLeft getter a la izquierda</div><div class="ttdef"><b>Definition:</b> tnode.h:148</div></div>
+<div class="ttc" id="aclass_t_node_html_a66b93f1aff71926db78b2637516484c4"><div class="ttname"><a href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">TNode::setRight</a></div><div class="ttdeci">void setRight(TNode&lt; A &gt; *right)</div><div class="ttdoc">setter a la izquierda</div><div class="ttdef"><b>Definition:</b> tnode.h:138</div></div>
+<div class="ttc" id="aclass_t_node_html_a8a3ee7188f8f8b3fcb89cf4c10ad3e34"><div class="ttname"><a href="class_t_node.html#a8a3ee7188f8f8b3fcb89cf4c10ad3e34">TNode::dat</a></div><div class="ttdeci">A dat</div><div class="ttdoc">atributo public</div><div class="ttdef"><b>Definition:</b> tnode.h:30</div></div>
+<div class="ttc" id="aclass_t_node_html_a97ff8fd51e5096d6f54c485d636b7e5d"><div class="ttname"><a href="class_t_node.html#a97ff8fd51e5096d6f54c485d636b7e5d">TNode::isLeaf</a></div><div class="ttdeci">bool isLeaf()</div><div class="ttdoc">Is Leaf Indica la hoja de izquierda a derecha.</div><div class="ttdef"><b>Definition:</b> tnode.h:191</div></div>
+<div class="ttc" id="aclass_t_node_html_aa89a9778440a020484d235ca327678a1"><div class="ttname"><a href="class_t_node.html#aa89a9778440a020484d235ca327678a1">TNode::setLeft</a></div><div class="ttdeci">void setLeft(TNode&lt; A &gt; *left)</div><div class="ttdoc">setLeft setter de la izquierda</div><div class="ttdef"><b>Definition:</b> tnode.h:158</div></div>
+<div class="ttc" id="aclass_t_node_html_abdd37e72b7d3131eceebed906d00e0b8"><div class="ttname"><a href="class_t_node.html#abdd37e72b7d3131eceebed906d00e0b8">TNode::TNode</a></div><div class="ttdeci">TNode()</div><div class="ttdoc">metodo public</div><div class="ttdef"><b>Definition:</b> tnode.h:62</div></div>
+<div class="ttc" id="aclass_t_node_html_af247fe13a4067cd68c6ec9ad9deada10"><div class="ttname"><a href="class_t_node.html#af247fe13a4067cd68c6ec9ad9deada10">TNode::left</a></div><div class="ttdeci">TNode&lt; A &gt; * left</div><div class="ttdef"><b>Definition:</b> tnode.h:32</div></div>
+<div class="ttc" id="aclass_t_node_html_af9875deff80e1c8bf982855614ea3e49"><div class="ttname"><a href="class_t_node.html#af9875deff80e1c8bf982855614ea3e49">TNode::getRight</a></div><div class="ttdeci">TNode&lt; A &gt; * getRight()</div><div class="ttdoc">get getter de la derecha</div><div class="ttdef"><b>Definition:</b> tnode.h:128</div></div>
+<div class="ttc" id="aclass_t_node_html_afb266a5559131eba5c6dec0d6ade4b85"><div class="ttname"><a href="class_t_node.html#afb266a5559131eba5c6dec0d6ade4b85">TNode::getDat</a></div><div class="ttdeci">A getDat()</div><div class="ttdoc">getDat los getter de los datos</div><div class="ttdef"><b>Definition:</b> tnode.h:108</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,2 @@
+@Atencion!!!
+Tenga en cuenta que esta aplicacion puede estar sujeta a fallos

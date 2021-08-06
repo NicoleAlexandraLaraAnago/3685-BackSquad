@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto de la Polaca Inversa: Fichero Fuente node.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="doxywizard.exe"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto de la Polaca Inversa
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de los arboles binarios</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">node.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="node_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//falta informacion para los Cdoc</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_node.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_node.html">Node</a>{</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">private</span>:<span class="comment">//cambiar a publico</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        A dat;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="class_node.html">Node&lt;A&gt;</a>* next = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="class_node.html">Node&lt;A&gt;</a>* previous = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="comment">// Node&lt;A&gt;* next;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">// Node&lt;A&gt;* previous;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="class_node.html#ac292b109213422e575251ddb121d3858">Node</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="class_node.html#ac292b109213422e575251ddb121d3858">Node</a>(A dat);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        A <a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_node.html#ac81a0294fc339e24ad4444de2eb36e47">setDat</a>(A dat);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="class_node.html">Node&lt;A&gt;</a>* <a class="code" href="class_node.html#ab59a85a8182892b3ab21870468a52224">getNext</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_node.html#a9d6e1b5e2af65be34fe445fa0418efea">setNext</a>(<a class="code" href="class_node.html">Node&lt;A&gt;</a>* next);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="class_node.html">Node&lt;A&gt;</a>* <a class="code" href="class_node.html#a179dbb740133f7148532e0684cde7323">getPrevious</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_node.html#a54689059b1b876d5958a6c1c670fb7cd">setPrevious</a>(<a class="code" href="class_node.html">Node&lt;A&gt;</a>* previous);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_node.html#ac292b109213422e575251ddb121d3858">   40</a></span>&#160;<a class="code" href="class_node.html#ac292b109213422e575251ddb121d3858">Node&lt;A&gt;::Node</a>(){</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_node.html#aae7d22d2c3cb443a946434a3ddc233de">   49</a></span>&#160;<a class="code" href="class_node.html#ac292b109213422e575251ddb121d3858">Node&lt;A&gt;::Node</a>(A dat){</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    this-&gt;dat = dat;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// this-&gt;next = nullptr;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// this-&gt;previous= nullptr;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">   61</a></span>&#160;A <a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">Node&lt;A&gt;::getDat</a>(){</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">return</span> this-&gt;dat;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="class_node.html#ac81a0294fc339e24ad4444de2eb36e47">   72</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_node.html#ac81a0294fc339e24ad4444de2eb36e47">Node&lt;A&gt;::setDat</a>(A dat){</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    this-&gt;dat = dat;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_node.html#ab59a85a8182892b3ab21870468a52224">   82</a></span>&#160;<a class="code" href="class_node.html">Node&lt;A&gt;</a>* <a class="code" href="class_node.html#ab59a85a8182892b3ab21870468a52224">Node&lt;A&gt;::getNext</a>(){</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> this-&gt;next;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="class_node.html#a9d6e1b5e2af65be34fe445fa0418efea">   92</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_node.html#a9d6e1b5e2af65be34fe445fa0418efea">Node&lt;A&gt;::setNext</a>(<a class="code" href="class_node.html">Node&lt;A&gt;</a>* next){</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    this-&gt;next = next;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="class_node.html#a179dbb740133f7148532e0684cde7323">  102</a></span>&#160;<a class="code" href="class_node.html">Node&lt;A&gt;</a>* <a class="code" href="class_node.html#a179dbb740133f7148532e0684cde7323">Node&lt;A&gt;::getPrevious</a>(){</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> this-&gt;previous;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> A&gt;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="class_node.html#a54689059b1b876d5958a6c1c670fb7cd">  112</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_node.html#a54689059b1b876d5958a6c1c670fb7cd">Node&lt;A&gt;::setPrevious</a>(<a class="code" href="class_node.html">Node&lt;A&gt;</a>* previous){</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    this-&gt;previous = previous;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
+<div class="ttc" id="aclass_node_html"><div class="ttname"><a href="class_node.html">Node</a></div><div class="ttdef"><b>Definition:</b> node.h:17</div></div>
+<div class="ttc" id="aclass_node_html_a179dbb740133f7148532e0684cde7323"><div class="ttname"><a href="class_node.html#a179dbb740133f7148532e0684cde7323">Node::getPrevious</a></div><div class="ttdeci">Node&lt; A &gt; * getPrevious()</div><div class="ttdoc">obtetiene nodo anterior getPrevious</div><div class="ttdef"><b>Definition:</b> node.h:102</div></div>
+<div class="ttc" id="aclass_node_html_a54689059b1b876d5958a6c1c670fb7cd"><div class="ttname"><a href="class_node.html#a54689059b1b876d5958a6c1c670fb7cd">Node::setPrevious</a></div><div class="ttdeci">void setPrevious(Node&lt; A &gt; *previous)</div><div class="ttdoc">obtiene noto anterior setPrevious</div><div class="ttdef"><b>Definition:</b> node.h:112</div></div>
+<div class="ttc" id="aclass_node_html_a986ab9300f5db5791aee1bb300688c4c"><div class="ttname"><a href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">Node::getDat</a></div><div class="ttdeci">A getDat()</div><div class="ttdoc">obtener dato</div><div class="ttdef"><b>Definition:</b> node.h:61</div></div>
+<div class="ttc" id="aclass_node_html_a9d6e1b5e2af65be34fe445fa0418efea"><div class="ttname"><a href="class_node.html#a9d6e1b5e2af65be34fe445fa0418efea">Node::setNext</a></div><div class="ttdeci">void setNext(Node&lt; A &gt; *next)</div><div class="ttdoc">Obtiene nodo siguiente setNext.</div><div class="ttdef"><b>Definition:</b> node.h:92</div></div>
+<div class="ttc" id="aclass_node_html_ab59a85a8182892b3ab21870468a52224"><div class="ttname"><a href="class_node.html#ab59a85a8182892b3ab21870468a52224">Node::getNext</a></div><div class="ttdeci">Node&lt; A &gt; * getNext()</div><div class="ttdoc">Obtiene nodo siguiente get next.</div><div class="ttdef"><b>Definition:</b> node.h:82</div></div>
+<div class="ttc" id="aclass_node_html_ac292b109213422e575251ddb121d3858"><div class="ttname"><a href="class_node.html#ac292b109213422e575251ddb121d3858">Node::Node</a></div><div class="ttdeci">Node()</div><div class="ttdoc">Construct a new Node&lt; A&gt;:: Node object.</div><div class="ttdef"><b>Definition:</b> node.h:40</div></div>
+<div class="ttc" id="aclass_node_html_ac81a0294fc339e24ad4444de2eb36e47"><div class="ttname"><a href="class_node.html#ac81a0294fc339e24ad4444de2eb36e47">Node::setDat</a></div><div class="ttdeci">void setDat(A dat)</div><div class="ttdoc">guardar dato</div><div class="ttdef"><b>Definition:</b> node.h:72</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
