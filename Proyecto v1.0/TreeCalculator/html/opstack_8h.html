@@ -1,0 +1,560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Calculadora Polaca: Referencia del Archivo TreeCalculator/opstack.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Calculator_30001.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Calculadora Polaca
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de arboles binarios con sus recorridos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7931695c04ecf1c479c3d84d688839ba.html">TreeCalculator</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia del Archivo opstack.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="tree_8h_source.html">tree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="opstr_8h_source.html">opstr.h</a>&quot;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+</div>
+<p><a href="opstack_8h_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a47f845deb43f256e9ae0d6bfc234bdae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#a47f845deb43f256e9ae0d6bfc234bdae">isReal</a> (char c)</td></tr>
+<tr class="memdesc:a47f845deb43f256e9ae0d6bfc234bdae"><td class="mdescLeft">&#160;</td><td class="mdescRight">isReal Indica para saber si es real el numero  <a href="opstack_8h.html#a47f845deb43f256e9ae0d6bfc234bdae">Más...</a><br /></td></tr>
+<tr class="separator:a47f845deb43f256e9ae0d6bfc234bdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cb22cc028e44b067e04ec9de1db0f31"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#a4cb22cc028e44b067e04ec9de1db0f31">isReal</a> (std::string c)</td></tr>
+<tr class="memdesc:a4cb22cc028e44b067e04ec9de1db0f31"><td class="mdescLeft">&#160;</td><td class="mdescRight">isReal Indica para saber si es real el numero  <a href="opstack_8h.html#a4cb22cc028e44b067e04ec9de1db0f31">Más...</a><br /></td></tr>
+<tr class="separator:a4cb22cc028e44b067e04ec9de1db0f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab344902ab3115bf0d29cd63b3ce88942"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#ab344902ab3115bf0d29cd63b3ce88942">precedencia</a> (std::string c)</td></tr>
+<tr class="memdesc:ab344902ab3115bf0d29cd63b3ce88942"><td class="mdescLeft">&#160;</td><td class="mdescRight">precedencia Indica la jerarquia de los operadores <br  />
+  <a href="opstack_8h.html#ab344902ab3115bf0d29cd63b3ce88942">Más...</a><br /></td></tr>
+<tr class="separator:ab344902ab3115bf0d29cd63b3ce88942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94414e8e477d58b50db9920050296b53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">isFuntion</a> (std::string c)</td></tr>
+<tr class="memdesc:a94414e8e477d58b50db9920050296b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">is Funtion Es la funcion para la jerarquia de las funciones trigonometricas <br  />
+  <a href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">Más...</a><br /></td></tr>
+<tr class="separator:a94414e8e477d58b50db9920050296b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0dbbd228c6b038f9336a34a265c01ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#ac0dbbd228c6b038f9336a34a265c01ad">inToStack</a> (std::string chain)</td></tr>
+<tr class="memdesc:ac0dbbd228c6b038f9336a34a265c01ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">inToStack Es para ingresar a la pila  <a href="opstack_8h.html#ac0dbbd228c6b038f9336a34a265c01ad">Más...</a><br /></td></tr>
+<tr class="separator:ac0dbbd228c6b038f9336a34a265c01ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa514c9b52e73fc85fb58cf0e33a2d858"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#aa514c9b52e73fc85fb58cf0e33a2d858">inToPost</a> (<a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt; str)</td></tr>
+<tr class="memdesc:aa514c9b52e73fc85fb58cf0e33a2d858"><td class="mdescLeft">&#160;</td><td class="mdescRight">inToPost Esta ubicado en post orden  <a href="opstack_8h.html#aa514c9b52e73fc85fb58cf0e33a2d858">Más...</a><br /></td></tr>
+<tr class="separator:aa514c9b52e73fc85fb58cf0e33a2d858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1918d06cef616cd030a5e43c69e321"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#abd1918d06cef616cd030a5e43c69e321">operateBinary</a> (double left, double right, std::string operators)</td></tr>
+<tr class="memdesc:abd1918d06cef616cd030a5e43c69e321"><td class="mdescLeft">&#160;</td><td class="mdescRight">operateBinary Indica la operacion binaria de los operadores matematicos  <a href="opstack_8h.html#abd1918d06cef616cd030a5e43c69e321">Más...</a><br /></td></tr>
+<tr class="separator:abd1918d06cef616cd030a5e43c69e321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ced7c305463c2eb5c0a8d23300d805"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#a42ced7c305463c2eb5c0a8d23300d805">operateUnary</a> (double operand, std::string fun)</td></tr>
+<tr class="memdesc:a42ced7c305463c2eb5c0a8d23300d805"><td class="mdescLeft">&#160;</td><td class="mdescRight">operateUnary Inidca los operadores como el exponencial y exponencial  <a href="opstack_8h.html#a42ced7c305463c2eb5c0a8d23300d805">Más...</a><br /></td></tr>
+<tr class="separator:a42ced7c305463c2eb5c0a8d23300d805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd884bec083f21a28ee7e8b2d640895e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#abd884bec083f21a28ee7e8b2d640895e">calculateReversePolac</a> (<a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt; str)</td></tr>
+<tr class="memdesc:abd884bec083f21a28ee7e8b2d640895e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculateReversePolac Calcula la calculadora polaca <br  />
+  <a href="opstack_8h.html#abd884bec083f21a28ee7e8b2d640895e">Más...</a><br /></td></tr>
+<tr class="separator:abd884bec083f21a28ee7e8b2d640895e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7ea50ad49f1f035686d629e1e77150"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#a9e7ea50ad49f1f035686d629e1e77150">inToPre</a> (<a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt; str)</td></tr>
+<tr class="memdesc:a9e7ea50ad49f1f035686d629e1e77150"><td class="mdescLeft">&#160;</td><td class="mdescRight">inToPre Indica en preorden  <a href="opstack_8h.html#a9e7ea50ad49f1f035686d629e1e77150">Más...</a><br /></td></tr>
+<tr class="separator:a9e7ea50ad49f1f035686d629e1e77150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2aed7b08934c283d863bc3b4107ef02"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#ad2aed7b08934c283d863bc3b4107ef02">getStringOperator</a> (std::string op)</td></tr>
+<tr class="memdesc:ad2aed7b08934c283d863bc3b4107ef02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the String Operator object.  <a href="opstack_8h.html#ad2aed7b08934c283d863bc3b4107ef02">Más...</a><br /></td></tr>
+<tr class="separator:ad2aed7b08934c283d863bc3b4107ef02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50c4d62c8d5a5d4d405b50603546e3a2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#a50c4d62c8d5a5d4d405b50603546e3a2">postToFuntional</a> (<a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt; str)</td></tr>
+<tr class="memdesc:a50c4d62c8d5a5d4d405b50603546e3a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">postToFuntional Indica la post Funcional  <a href="opstack_8h.html#a50c4d62c8d5a5d4d405b50603546e3a2">Más...</a><br /></td></tr>
+<tr class="separator:a50c4d62c8d5a5d4d405b50603546e3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762d030e5e43887e0052925e2a26cf36"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#a762d030e5e43887e0052925e2a26cf36">validate</a> (<a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt; str)</td></tr>
+<tr class="memdesc:a762d030e5e43887e0052925e2a26cf36"><td class="mdescLeft">&#160;</td><td class="mdescRight">validate Indica la validacion de la expresion matematica  <a href="opstack_8h.html#a762d030e5e43887e0052925e2a26cf36">Más...</a><br /></td></tr>
+<tr class="separator:a762d030e5e43887e0052925e2a26cf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf7f5b37179cfbc38c61ba96dbdbc72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="opstack_8h.html#afbf7f5b37179cfbc38c61ba96dbdbc72">getNumeros</a> (std::string chain)</td></tr>
+<tr class="memdesc:afbf7f5b37179cfbc38c61ba96dbdbc72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Numeros object.  <a href="opstack_8h.html#afbf7f5b37179cfbc38c61ba96dbdbc72">Más...</a><br /></td></tr>
+<tr class="separator:afbf7f5b37179cfbc38c61ba96dbdbc72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a id="abd884bec083f21a28ee7e8b2d640895e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd884bec083f21a28ee7e8b2d640895e">&#9670;&nbsp;</a></span>calculateReversePolac()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double calculateReversePolac </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>calculateReversePolac Calcula la calculadora polaca <br  />
+ </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>double </dd></dl>
+
+</div>
+</div>
+<a id="afbf7f5b37179cfbc38c61ba96dbdbc72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbf7f5b37179cfbc38c61ba96dbdbc72">&#9670;&nbsp;</a></span>getNumeros()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tree.html">Tree</a>&lt;std::string&gt; getNumeros </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>chain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Numeros object. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chain</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Tree&lt;std::string&gt; </dd></dl>
+
+</div>
+</div>
+<a id="ad2aed7b08934c283d863bc3b4107ef02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2aed7b08934c283d863bc3b4107ef02">&#9670;&nbsp;</a></span>getStringOperator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string getStringOperator </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the String Operator object. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>std::string </dd></dl>
+
+</div>
+</div>
+<a id="aa514c9b52e73fc85fb58cf0e33a2d858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa514c9b52e73fc85fb58cf0e33a2d858">&#9670;&nbsp;</a></span>inToPost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tree.html">Tree</a>&lt;std::string&gt; inToPost </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>inToPost Esta ubicado en post orden </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Tree&lt;std::string&gt; </dd></dl>
+
+</div>
+</div>
+<a id="a9e7ea50ad49f1f035686d629e1e77150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7ea50ad49f1f035686d629e1e77150">&#9670;&nbsp;</a></span>inToPre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string inToPre </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>inToPre Indica en preorden </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>std::string </dd></dl>
+
+</div>
+</div>
+<a id="ac0dbbd228c6b038f9336a34a265c01ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0dbbd228c6b038f9336a34a265c01ad">&#9670;&nbsp;</a></span>inToStack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_tree.html">Tree</a>&lt;std::string&gt; inToStack </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>chain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>inToStack Es para ingresar a la pila </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chain</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Tree&lt;std::string&gt; </dd></dl>
+
+</div>
+</div>
+<a id="a94414e8e477d58b50db9920050296b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94414e8e477d58b50db9920050296b53">&#9670;&nbsp;</a></span>isFuntion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isFuntion </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>is Funtion Es la funcion para la jerarquia de las funciones trigonometricas <br  />
+ </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true </dd>
+<dd>
+false </dd></dl>
+
+</div>
+</div>
+<a id="a47f845deb43f256e9ae0d6bfc234bdae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f845deb43f256e9ae0d6bfc234bdae">&#9670;&nbsp;</a></span>isReal() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isReal </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>isReal Indica para saber si es real el numero </p>
+<p>UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE" INGENIERIA SOFTWARE Docente: Fernando Solis AUTORES : Diejo Jiminez Dalton Arevalo Lizzette Zapata Stalin Rivera Nicol Lara ENUNCIADO: CREACION DE UN PROGRAMA QUE SIMULE UNA CALCULADORA POLACA INVERSA FECHA DE CREACION : 15 DE JULIO DE 2021 FECHA DE MODIFICACION: 06 DE JULIO DE 2021</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true </dd>
+<dd>
+false </dd></dl>
+
+</div>
+</div>
+<a id="a4cb22cc028e44b067e04ec9de1db0f31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cb22cc028e44b067e04ec9de1db0f31">&#9670;&nbsp;</a></span>isReal() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isReal </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>isReal Indica para saber si es real el numero </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true </dd>
+<dd>
+false </dd></dl>
+
+</div>
+</div>
+<a id="abd1918d06cef616cd030a5e43c69e321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1918d06cef616cd030a5e43c69e321">&#9670;&nbsp;</a></span>operateBinary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double operateBinary </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>operators</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>operateBinary Indica la operacion binaria de los operadores matematicos </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left</td><td></td></tr>
+    <tr><td class="paramname">right</td><td></td></tr>
+    <tr><td class="paramname">operators</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>double </dd></dl>
+
+</div>
+</div>
+<a id="a42ced7c305463c2eb5c0a8d23300d805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ced7c305463c2eb5c0a8d23300d805">&#9670;&nbsp;</a></span>operateUnary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double operateUnary </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>operand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fun</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>operateUnary Inidca los operadores como el exponencial y exponencial </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">operand</td><td></td></tr>
+    <tr><td class="paramname">fun</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>double </dd></dl>
+
+</div>
+</div>
+<a id="a50c4d62c8d5a5d4d405b50603546e3a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50c4d62c8d5a5d4d405b50603546e3a2">&#9670;&nbsp;</a></span>postToFuntional()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string postToFuntional </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>postToFuntional Indica la post Funcional </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>std::string </dd></dl>
+
+</div>
+</div>
+<a id="ab344902ab3115bf0d29cd63b3ce88942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab344902ab3115bf0d29cd63b3ce88942">&#9670;&nbsp;</a></span>precedencia()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int precedencia </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>precedencia Indica la jerarquia de los operadores <br  />
+ </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="a762d030e5e43887e0052925e2a26cf36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a762d030e5e43887e0052925e2a26cf36">&#9670;&nbsp;</a></span>validate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool validate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tree.html">Tree</a>&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>validate Indica la validacion de la expresion matematica </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true </dd>
+<dd>
+false </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

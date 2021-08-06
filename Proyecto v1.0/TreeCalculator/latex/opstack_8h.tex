@@ -1,0 +1,316 @@
+\hypertarget{opstack_8h}{}\doxysection{Referencia del Archivo Tree\+Calculator/opstack.h}
+\label{opstack_8h}\index{TreeCalculator/opstack.h@{TreeCalculator/opstack.h}}
+{\ttfamily \#include \char`\"{}tree.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}opstr.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{opstack_8h_a47f845deb43f256e9ae0d6bfc234bdae}{is\+Real}} (char c)
+\begin{DoxyCompactList}\small\item\em is\+Real Indica para saber si es real el numero \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{opstack_8h_a4cb22cc028e44b067e04ec9de1db0f31}{is\+Real}} (std\+::string c)
+\begin{DoxyCompactList}\small\item\em is\+Real Indica para saber si es real el numero \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{opstack_8h_ab344902ab3115bf0d29cd63b3ce88942}{precedencia}} (std\+::string c)
+\begin{DoxyCompactList}\small\item\em precedencia Indica la jerarquia de los operadores ~\newline
+ \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{opstack_8h_a94414e8e477d58b50db9920050296b53}{is\+Funtion}} (std\+::string c)
+\begin{DoxyCompactList}\small\item\em is Funtion Es la funcion para la jerarquia de las funciones trigonometricas ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ \mbox{\hyperlink{opstack_8h_ac0dbbd228c6b038f9336a34a265c01ad}{in\+To\+Stack}} (std\+::string chain)
+\begin{DoxyCompactList}\small\item\em in\+To\+Stack Es para ingresar a la pila \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ \mbox{\hyperlink{opstack_8h_aa514c9b52e73fc85fb58cf0e33a2d858}{in\+To\+Post}} (\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ str)
+\begin{DoxyCompactList}\small\item\em in\+To\+Post Esta ubicado en post orden \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{opstack_8h_abd1918d06cef616cd030a5e43c69e321}{operate\+Binary}} (double left, double right, std\+::string operators)
+\begin{DoxyCompactList}\small\item\em operate\+Binary Indica la operacion binaria de los operadores matematicos \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{opstack_8h_a42ced7c305463c2eb5c0a8d23300d805}{operate\+Unary}} (double operand, std\+::string fun)
+\begin{DoxyCompactList}\small\item\em operate\+Unary Inidca los operadores como el exponencial y exponencial \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{opstack_8h_abd884bec083f21a28ee7e8b2d640895e}{calculate\+Reverse\+Polac}} (\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ str)
+\begin{DoxyCompactList}\small\item\em calculate\+Reverse\+Polac Calcula la calculadora polaca ~\newline
+ \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{opstack_8h_a9e7ea50ad49f1f035686d629e1e77150}{in\+To\+Pre}} (\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ str)
+\begin{DoxyCompactList}\small\item\em in\+To\+Pre Indica en preorden \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{opstack_8h_ad2aed7b08934c283d863bc3b4107ef02}{get\+String\+Operator}} (std\+::string op)
+\begin{DoxyCompactList}\small\item\em Get the String Operator object. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{opstack_8h_a50c4d62c8d5a5d4d405b50603546e3a2}{post\+To\+Funtional}} (\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ str)
+\begin{DoxyCompactList}\small\item\em post\+To\+Funtional Indica la post Funcional \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{opstack_8h_a762d030e5e43887e0052925e2a26cf36}{validate}} (\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ str)
+\begin{DoxyCompactList}\small\item\em validate Indica la validacion de la expresion matematica \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$ \mbox{\hyperlink{opstack_8h_afbf7f5b37179cfbc38c61ba96dbdbc72}{get\+Numeros}} (std\+::string chain)
+\begin{DoxyCompactList}\small\item\em Get the Numeros object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{opstack_8h_abd884bec083f21a28ee7e8b2d640895e}\label{opstack_8h_abd884bec083f21a28ee7e8b2d640895e}} 
+\index{opstack.h@{opstack.h}!calculateReversePolac@{calculateReversePolac}}
+\index{calculateReversePolac@{calculateReversePolac}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{calculateReversePolac()}{calculateReversePolac()}}
+{\footnotesize\ttfamily double calculate\+Reverse\+Polac (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$}]{str }\end{DoxyParamCaption})}
+
+
+
+calculate\+Reverse\+Polac Calcula la calculadora polaca ~\newline
+ 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+double 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_afbf7f5b37179cfbc38c61ba96dbdbc72}\label{opstack_8h_afbf7f5b37179cfbc38c61ba96dbdbc72}} 
+\index{opstack.h@{opstack.h}!getNumeros@{getNumeros}}
+\index{getNumeros@{getNumeros}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{getNumeros()}{getNumeros()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tree}{Tree}}$<$std\+::string$>$ get\+Numeros (\begin{DoxyParamCaption}\item[{std\+::string}]{chain }\end{DoxyParamCaption})}
+
+
+
+Get the Numeros object. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em chain} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Tree$<$std\+::string$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_ad2aed7b08934c283d863bc3b4107ef02}\label{opstack_8h_ad2aed7b08934c283d863bc3b4107ef02}} 
+\index{opstack.h@{opstack.h}!getStringOperator@{getStringOperator}}
+\index{getStringOperator@{getStringOperator}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{getStringOperator()}{getStringOperator()}}
+{\footnotesize\ttfamily std\+::string get\+String\+Operator (\begin{DoxyParamCaption}\item[{std\+::string}]{op }\end{DoxyParamCaption})}
+
+
+
+Get the String Operator object. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em op} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_aa514c9b52e73fc85fb58cf0e33a2d858}\label{opstack_8h_aa514c9b52e73fc85fb58cf0e33a2d858}} 
+\index{opstack.h@{opstack.h}!inToPost@{inToPost}}
+\index{inToPost@{inToPost}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{inToPost()}{inToPost()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tree}{Tree}}$<$std\+::string$>$ in\+To\+Post (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$}]{str }\end{DoxyParamCaption})}
+
+
+
+in\+To\+Post Esta ubicado en post orden 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Tree$<$std\+::string$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_a9e7ea50ad49f1f035686d629e1e77150}\label{opstack_8h_a9e7ea50ad49f1f035686d629e1e77150}} 
+\index{opstack.h@{opstack.h}!inToPre@{inToPre}}
+\index{inToPre@{inToPre}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{inToPre()}{inToPre()}}
+{\footnotesize\ttfamily std\+::string in\+To\+Pre (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$}]{str }\end{DoxyParamCaption})}
+
+
+
+in\+To\+Pre Indica en preorden 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_ac0dbbd228c6b038f9336a34a265c01ad}\label{opstack_8h_ac0dbbd228c6b038f9336a34a265c01ad}} 
+\index{opstack.h@{opstack.h}!inToStack@{inToStack}}
+\index{inToStack@{inToStack}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{inToStack()}{inToStack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tree}{Tree}}$<$std\+::string$>$ in\+To\+Stack (\begin{DoxyParamCaption}\item[{std\+::string}]{chain }\end{DoxyParamCaption})}
+
+
+
+in\+To\+Stack Es para ingresar a la pila 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em chain} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Tree$<$std\+::string$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_a94414e8e477d58b50db9920050296b53}\label{opstack_8h_a94414e8e477d58b50db9920050296b53}} 
+\index{opstack.h@{opstack.h}!isFuntion@{isFuntion}}
+\index{isFuntion@{isFuntion}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{isFuntion()}{isFuntion()}}
+{\footnotesize\ttfamily bool is\+Funtion (\begin{DoxyParamCaption}\item[{std\+::string}]{c }\end{DoxyParamCaption})}
+
+
+
+is Funtion Es la funcion para la jerarquia de las funciones trigonometricas ~\newline
+ 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_a47f845deb43f256e9ae0d6bfc234bdae}\label{opstack_8h_a47f845deb43f256e9ae0d6bfc234bdae}} 
+\index{opstack.h@{opstack.h}!isReal@{isReal}}
+\index{isReal@{isReal}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{isReal()}{isReal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool is\+Real (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+is\+Real Indica para saber si es real el numero 
+
+UNIVERSIDAD DE LAS FUERZAS ARMADAS \char`\"{}\+ESPE\char`\"{} INGENIERIA SOFTWARE Docente\+: Fernando Solis AUTORES \+: Diejo Jiminez Dalton Arevalo Lizzette Zapata Stalin Rivera Nicol Lara ENUNCIADO\+: CREACION DE UN PROGRAMA QUE SIMULE UNA CALCULADORA POLACA INVERSA FECHA DE CREACION \+: 15 DE JULIO DE 2021 FECHA DE MODIFICACION\+: 06 DE JULIO DE 2021
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_a4cb22cc028e44b067e04ec9de1db0f31}\label{opstack_8h_a4cb22cc028e44b067e04ec9de1db0f31}} 
+\index{opstack.h@{opstack.h}!isReal@{isReal}}
+\index{isReal@{isReal}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{isReal()}{isReal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool is\+Real (\begin{DoxyParamCaption}\item[{std\+::string}]{c }\end{DoxyParamCaption})}
+
+
+
+is\+Real Indica para saber si es real el numero 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_abd1918d06cef616cd030a5e43c69e321}\label{opstack_8h_abd1918d06cef616cd030a5e43c69e321}} 
+\index{opstack.h@{opstack.h}!operateBinary@{operateBinary}}
+\index{operateBinary@{operateBinary}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{operateBinary()}{operateBinary()}}
+{\footnotesize\ttfamily double operate\+Binary (\begin{DoxyParamCaption}\item[{double}]{left,  }\item[{double}]{right,  }\item[{std\+::string}]{operators }\end{DoxyParamCaption})}
+
+
+
+operate\+Binary Indica la operacion binaria de los operadores matematicos 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em left} & \\
+\hline
+{\em right} & \\
+\hline
+{\em operators} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+double 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_a42ced7c305463c2eb5c0a8d23300d805}\label{opstack_8h_a42ced7c305463c2eb5c0a8d23300d805}} 
+\index{opstack.h@{opstack.h}!operateUnary@{operateUnary}}
+\index{operateUnary@{operateUnary}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{operateUnary()}{operateUnary()}}
+{\footnotesize\ttfamily double operate\+Unary (\begin{DoxyParamCaption}\item[{double}]{operand,  }\item[{std\+::string}]{fun }\end{DoxyParamCaption})}
+
+
+
+operate\+Unary Inidca los operadores como el exponencial y exponencial 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em operand} & \\
+\hline
+{\em fun} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+double 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_a50c4d62c8d5a5d4d405b50603546e3a2}\label{opstack_8h_a50c4d62c8d5a5d4d405b50603546e3a2}} 
+\index{opstack.h@{opstack.h}!postToFuntional@{postToFuntional}}
+\index{postToFuntional@{postToFuntional}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{postToFuntional()}{postToFuntional()}}
+{\footnotesize\ttfamily std\+::string post\+To\+Funtional (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$}]{str }\end{DoxyParamCaption})}
+
+
+
+post\+To\+Funtional Indica la post Funcional 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_ab344902ab3115bf0d29cd63b3ce88942}\label{opstack_8h_ab344902ab3115bf0d29cd63b3ce88942}} 
+\index{opstack.h@{opstack.h}!precedencia@{precedencia}}
+\index{precedencia@{precedencia}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{precedencia()}{precedencia()}}
+{\footnotesize\ttfamily int precedencia (\begin{DoxyParamCaption}\item[{std\+::string}]{c }\end{DoxyParamCaption})}
+
+
+
+precedencia Indica la jerarquia de los operadores ~\newline
+ 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstack_8h_a762d030e5e43887e0052925e2a26cf36}\label{opstack_8h_a762d030e5e43887e0052925e2a26cf36}} 
+\index{opstack.h@{opstack.h}!validate@{validate}}
+\index{validate@{validate}!opstack.h@{opstack.h}}
+\doxysubsubsection{\texorpdfstring{validate()}{validate()}}
+{\footnotesize\ttfamily bool validate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tree}{Tree}}$<$ std\+::string $>$}]{str }\end{DoxyParamCaption})}
+
+
+
+validate Indica la validacion de la expresion matematica 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false 
+\end{DoxyReturn}

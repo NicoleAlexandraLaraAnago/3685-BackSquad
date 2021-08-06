@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Calculadora Polaca: Fichero Fuente TreeCalculator/Menu_option.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Calculator_30001.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Calculadora Polaca
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de arboles binarios con sus recorridos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7931695c04ecf1c479c3d84d688839ba.html">TreeCalculator</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Menu_option.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_menu__option_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#ifndef __MENU_CLASSES_</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="_menu__option_8h.html#a85adf25dda2322e6b4a9e7ab4cde81d0">   21</a></span>&#160;<span class="preprocessor">#define __MENU_CLASSES_</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_menu_option_argument_base.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_menu_option_argument_base.html">MenuOptionArgumentBase</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_menu_option_argument_base.html#ad61772c34009967ece924ed2611feb9d">~MenuOptionArgumentBase</a>() = 0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_menu_option_argument_base.html#ad61772c34009967ece924ed2611feb9d">   37</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="class_menu_option_argument_base.html#ad61772c34009967ece924ed2611feb9d">MenuOptionArgumentBase::~MenuOptionArgumentBase</a>() {}</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="class_menu_option_argument.html">   47</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_menu_option_argument.html">MenuOptionArgument</a> : <span class="keyword">public</span> <a class="code" href="class_menu_option_argument_base.html">MenuOptionArgumentBase</a> {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_menu_option_argument.html#af49fedf26c91e36ca1ed0f434f0d5acf">   49</a></span>&#160;    <span class="keyword">typedef</span> T <a class="code" href="class_menu_option_argument.html#af49fedf26c91e36ca1ed0f434f0d5acf">Type</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_menu_option_argument.html#a343cf9a674e548c3487f970ad1ce3c51">MenuOptionArgument</a>(<span class="keyword">const</span> <a class="code" href="class_menu_option_argument.html#af49fedf26c91e36ca1ed0f434f0d5acf">Type</a>&amp; value);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="class_menu_option_argument.html#af49fedf26c91e36ca1ed0f434f0d5acf">Type</a> <a class="code" href="class_menu_option_argument.html#ad5d89874d48f453f5d2783157c2a5231">get_value</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_menu_option_argument.html#a4c694d4e222deb6241107405b89bfbe3">set_value</a>(<a class="code" href="class_menu_option_argument.html#af49fedf26c91e36ca1ed0f434f0d5acf">Type</a> value);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="class_menu_option_argument.html#af49fedf26c91e36ca1ed0f434f0d5acf">Type</a> value;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="class_menu_option_argument.html#a343cf9a674e548c3487f970ad1ce3c51">   63</a></span>&#160;<a class="code" href="class_menu_option_argument.html#a343cf9a674e548c3487f970ad1ce3c51">MenuOptionArgument&lt;T&gt;::MenuOptionArgument</a>(<span class="keyword">const</span> T&amp; value): value(value) {}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_menu_option_argument.html#ad5d89874d48f453f5d2783157c2a5231">   71</a></span>&#160;T <a class="code" href="class_menu_option_argument.html#ad5d89874d48f453f5d2783157c2a5231">MenuOptionArgument&lt;T&gt;::get_value</a>() {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> value;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="class_menu_option_argument.html#a4c694d4e222deb6241107405b89bfbe3">   81</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_menu_option_argument.html#a4c694d4e222deb6241107405b89bfbe3">MenuOptionArgument&lt;T&gt;::set_value</a>(T value) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    this-&gt;value = value;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="class_menu_option_arguments.html">   87</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_menu_option_arguments.html">MenuOptionArguments</a> {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="class_menu_option_arguments.html#a87d17f64bbcd6a78f7a535b879210dd5">MenuOptionArguments</a>();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_menu_option_arguments.html#ae2e2ddf6e2e2619fc376b406918006d7">add</a>(std::string key, <a class="code" href="class_menu_option_argument.html">MenuOptionArgument&lt;T&gt;</a> *argument);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_menu_option_arguments.html#ae2e2ddf6e2e2619fc376b406918006d7">add</a>(std::string key, T value);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    T <a class="code" href="class_menu_option_arguments.html#ace8889e910baf9b389c6829c2338e1e9">get</a>(std::string key);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_menu_option_arguments.html#afd4098fbce141f17be06b3cbda86e49d">set</a>(std::string key, T value);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_menu_option_arguments.html#aff99b34bc13b0fbf9720c409e355b366">has</a>(std::string key);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    std::map&lt;std::string, std::unique_ptr&lt;MenuOptionArgumentBase&gt;&gt; *arguments;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;};</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="class_menu_option_arguments.html#a87d17f64bbcd6a78f7a535b879210dd5">  149</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="class_menu_option_arguments.html#a87d17f64bbcd6a78f7a535b879210dd5">MenuOptionArguments::MenuOptionArguments</a>() {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    arguments = <span class="keyword">new</span> std::map&lt;std::string, std::unique_ptr&lt;MenuOptionArgumentBase&gt;&gt;();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;}</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="class_menu_option_arguments.html#ae2e2ddf6e2e2619fc376b406918006d7">  160</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_menu_option_arguments.html#ae2e2ddf6e2e2619fc376b406918006d7">MenuOptionArguments::add</a>(std::string key, <a class="code" href="class_menu_option_argument.html">MenuOptionArgument&lt;T&gt;</a> *argument) {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    (*arguments)[key] = std::unique_ptr&lt;MenuOptionArgumentBase&gt;(argument);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="class_menu_option_arguments.html#ae204e450b348dbdb1ecd11a67d396035">  171</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_menu_option_arguments.html#ae2e2ddf6e2e2619fc376b406918006d7">MenuOptionArguments::add</a>(std::string key, T value) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="class_menu_option_arguments.html#ae2e2ddf6e2e2619fc376b406918006d7">add</a>(key, <span class="keyword">new</span> <a class="code" href="class_menu_option_argument.html">MenuOptionArgument&lt;T&gt;</a>(value));</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="class_menu_option_arguments.html#ace8889e910baf9b389c6829c2338e1e9">  182</a></span>&#160;T <a class="code" href="class_menu_option_arguments.html#ace8889e910baf9b389c6829c2338e1e9">MenuOptionArguments::get</a>(std::string key) {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keyword">auto</span> arg = <span class="keyword">dynamic_cast&lt;</span><a class="code" href="class_menu_option_argument.html">MenuOptionArgument&lt;T&gt;</a>&amp;<span class="keyword">&gt;</span>(*((*arguments)[key]));</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">return</span> arg.get_value();</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;}</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="class_menu_option_arguments.html#afd4098fbce141f17be06b3cbda86e49d">  194</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_menu_option_arguments.html#afd4098fbce141f17be06b3cbda86e49d">MenuOptionArguments::set</a>(std::string key, T value) {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keyword">auto</span> arg = <span class="keyword">dynamic_cast&lt;</span><a class="code" href="class_menu_option_argument.html">MenuOptionArgument&lt;T&gt;</a>&amp;<span class="keyword">&gt;</span>(*((*arguments)[key]));</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    arg.set_value(value);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;}</div>
+<div class="line"><a name="l00205"></a><span class="lineno"><a class="line" href="class_menu_option_arguments.html#aff99b34bc13b0fbf9720c409e355b366">  205</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_menu_option_arguments.html#aff99b34bc13b0fbf9720c409e355b366">MenuOptionArguments::has</a>(std::string key) {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">return</span> !(arguments-&gt;find(key) == arguments-&gt;end());</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160; </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
+<div class="line"><a name="l00217"></a><span class="lineno"><a class="line" href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">  217</a></span>&#160;<span class="keyword">typedef</span> std::function&lt;void(<a class="code" href="class_menu_option_arguments.html">MenuOptionArguments</a> args)&gt; <a class="code" href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">MenuOptionCallback</a>;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160; </div>
+<div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="class_menu_option.html">  219</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_menu_option.html">MenuOption</a> {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="class_menu_option.html#acbdd3078bab1e85466c0729279722b43">MenuOption</a>(std::string label, <a class="code" href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">MenuOptionCallback</a> callback);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="class_menu_option.html#acbdd3078bab1e85466c0729279722b43">MenuOption</a>(std::string label, <a class="code" href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">MenuOptionCallback</a> callback, <span class="keywordtype">bool</span> wait_after_exec);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <a class="code" href="class_menu_option.html#acbdd3078bab1e85466c0729279722b43">MenuOption</a>(std::string label, <a class="code" href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">MenuOptionCallback</a> callback, <a class="code" href="class_menu_option_arguments.html">MenuOptionArguments</a> arguments);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <a class="code" href="class_menu_option.html#acbdd3078bab1e85466c0729279722b43">MenuOption</a>(std::string label, <a class="code" href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">MenuOptionCallback</a> callback, <a class="code" href="class_menu_option_arguments.html">MenuOptionArguments</a> arguments, <span class="keywordtype">bool</span> wait_after_exec);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    std::string <a class="code" href="class_menu_option.html#aff0b709ddb94a92037a505b3fb0cd949">get_label</a>();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_menu_option.html#a6d6135e47db97e46e202e4e0020d6dc8">execute</a>();</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_menu_option.html#ab40ac93901cbc53a490fe2205f0c33f6">should_wait</a>();</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <a class="code" href="class_menu_option_arguments.html">MenuOptionArguments</a> &amp;<a class="code" href="class_menu_option.html#ace35d1f75d793020c91a61e25091c2ca">get_args</a>();</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    std::string label;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <a class="code" href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">MenuOptionCallback</a> callback;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordtype">bool</span> wait_after_exec = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <a class="code" href="class_menu_option_arguments.html">MenuOptionArguments</a> arguments;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;};</div>
+<div class="ttc" id="a_menu__option_8h_html_abe5fd22bb7e3eeffab3d4a6b5c77b5fb"><div class="ttname"><a href="_menu__option_8h.html#abe5fd22bb7e3eeffab3d4a6b5c77b5fb">MenuOptionCallback</a></div><div class="ttdeci">std::function&lt; void(MenuOptionArguments args)&gt; MenuOptionCallback</div><div class="ttdoc">funtion con la opcion callback</div><div class="ttdef"><b>Definition:</b> Menu_option.h:217</div></div>
+<div class="ttc" id="aclass_menu_option_argument_base_html"><div class="ttname"><a href="class_menu_option_argument_base.html">MenuOptionArgumentBase</a></div><div class="ttdef"><b>Definition:</b> Menu_option.h:24</div></div>
+<div class="ttc" id="aclass_menu_option_argument_base_html_ad61772c34009967ece924ed2611feb9d"><div class="ttname"><a href="class_menu_option_argument_base.html#ad61772c34009967ece924ed2611feb9d">MenuOptionArgumentBase::~MenuOptionArgumentBase</a></div><div class="ttdeci">virtual ~MenuOptionArgumentBase()=0</div><div class="ttdoc">Destroy the Menu Option Argument Base object Aqui se encuentra el destructor.</div><div class="ttdef"><b>Definition:</b> Menu_option.h:37</div></div>
+<div class="ttc" id="aclass_menu_option_argument_html"><div class="ttname"><a href="class_menu_option_argument.html">MenuOptionArgument</a></div><div class="ttdoc">Aqui se usa el menu de opciones y los setter de la evaluacion.</div><div class="ttdef"><b>Definition:</b> Menu_option.h:47</div></div>
+<div class="ttc" id="aclass_menu_option_argument_html_a343cf9a674e548c3487f970ad1ce3c51"><div class="ttname"><a href="class_menu_option_argument.html#a343cf9a674e548c3487f970ad1ce3c51">MenuOptionArgument::MenuOptionArgument</a></div><div class="ttdeci">MenuOptionArgument(const Type &amp;value)</div><div class="ttdoc">Construct a new Menu Option Argument&lt; T&gt;:: Menu Option Argument object Aui se usa el constructor de l...</div><div class="ttdef"><b>Definition:</b> Menu_option.h:63</div></div>
+<div class="ttc" id="aclass_menu_option_argument_html_a4c694d4e222deb6241107405b89bfbe3"><div class="ttname"><a href="class_menu_option_argument.html#a4c694d4e222deb6241107405b89bfbe3">MenuOptionArgument::set_value</a></div><div class="ttdeci">void set_value(Type value)</div><div class="ttdoc">Indica los setter del valor.</div><div class="ttdef"><b>Definition:</b> Menu_option.h:81</div></div>
+<div class="ttc" id="aclass_menu_option_argument_html_ad5d89874d48f453f5d2783157c2a5231"><div class="ttname"><a href="class_menu_option_argument.html#ad5d89874d48f453f5d2783157c2a5231">MenuOptionArgument::get_value</a></div><div class="ttdeci">Type get_value()</div><div class="ttdoc">MenuOptionArgumen Indica la opcion del menu Argumento.</div><div class="ttdef"><b>Definition:</b> Menu_option.h:71</div></div>
+<div class="ttc" id="aclass_menu_option_argument_html_af49fedf26c91e36ca1ed0f434f0d5acf"><div class="ttname"><a href="class_menu_option_argument.html#af49fedf26c91e36ca1ed0f434f0d5acf">MenuOptionArgument::Type</a></div><div class="ttdeci">T Type</div><div class="ttdef"><b>Definition:</b> Menu_option.h:49</div></div>
+<div class="ttc" id="aclass_menu_option_arguments_html"><div class="ttname"><a href="class_menu_option_arguments.html">MenuOptionArguments</a></div><div class="ttdef"><b>Definition:</b> Menu_option.h:87</div></div>
+<div class="ttc" id="aclass_menu_option_arguments_html_a87d17f64bbcd6a78f7a535b879210dd5"><div class="ttname"><a href="class_menu_option_arguments.html#a87d17f64bbcd6a78f7a535b879210dd5">MenuOptionArguments::MenuOptionArguments</a></div><div class="ttdeci">MenuOptionArguments()</div><div class="ttdoc">Construct a new Menu Option Arguments object.</div><div class="ttdef"><b>Definition:</b> Menu_option.h:149</div></div>
+<div class="ttc" id="aclass_menu_option_arguments_html_ace8889e910baf9b389c6829c2338e1e9"><div class="ttname"><a href="class_menu_option_arguments.html#ace8889e910baf9b389c6829c2338e1e9">MenuOptionArguments::get</a></div><div class="ttdeci">T get(std::string key)</div><div class="ttdoc">Setter y getter de la llave.</div><div class="ttdef"><b>Definition:</b> Menu_option.h:182</div></div>
+<div class="ttc" id="aclass_menu_option_arguments_html_ae2e2ddf6e2e2619fc376b406918006d7"><div class="ttname"><a href="class_menu_option_arguments.html#ae2e2ddf6e2e2619fc376b406918006d7">MenuOptionArguments::add</a></div><div class="ttdeci">void add(std::string key, MenuOptionArgument&lt; T &gt; *argument)</div><div class="ttdoc">Se usa las llaves par el arbol.</div><div class="ttdef"><b>Definition:</b> Menu_option.h:160</div></div>
+<div class="ttc" id="aclass_menu_option_arguments_html_afd4098fbce141f17be06b3cbda86e49d"><div class="ttname"><a href="class_menu_option_arguments.html#afd4098fbce141f17be06b3cbda86e49d">MenuOptionArguments::set</a></div><div class="ttdeci">void set(std::string key, T value)</div><div class="ttdoc">llave y valor</div><div class="ttdef"><b>Definition:</b> Menu_option.h:194</div></div>
+<div class="ttc" id="aclass_menu_option_arguments_html_aff99b34bc13b0fbf9720c409e355b366"><div class="ttname"><a href="class_menu_option_arguments.html#aff99b34bc13b0fbf9720c409e355b366">MenuOptionArguments::has</a></div><div class="ttdeci">bool has(std::string key)</div><div class="ttdoc">tiene una llave</div><div class="ttdef"><b>Definition:</b> Menu_option.h:205</div></div>
+<div class="ttc" id="aclass_menu_option_html"><div class="ttname"><a href="class_menu_option.html">MenuOption</a></div><div class="ttdef"><b>Definition:</b> Menu_option.h:219</div></div>
+<div class="ttc" id="aclass_menu_option_html_a6d6135e47db97e46e202e4e0020d6dc8"><div class="ttname"><a href="class_menu_option.html#a6d6135e47db97e46e202e4e0020d6dc8">MenuOption::execute</a></div><div class="ttdeci">void execute()</div><div class="ttdoc">Ejecutable.</div><div class="ttdef"><b>Definition:</b> Menu_option.cpp:71</div></div>
+<div class="ttc" id="aclass_menu_option_html_ab40ac93901cbc53a490fe2205f0c33f6"><div class="ttname"><a href="class_menu_option.html#ab40ac93901cbc53a490fe2205f0c33f6">MenuOption::should_wait</a></div><div class="ttdeci">bool should_wait()</div><div class="ttdoc">Controlador de Estado.</div><div class="ttdef"><b>Definition:</b> Menu_option.cpp:80</div></div>
+<div class="ttc" id="aclass_menu_option_html_acbdd3078bab1e85466c0729279722b43"><div class="ttname"><a href="class_menu_option.html#acbdd3078bab1e85466c0729279722b43">MenuOption::MenuOption</a></div><div class="ttdeci">MenuOption(std::string label, MenuOptionCallback callback)</div><div class="ttdoc">Construct a new Menu Option object.</div><div class="ttdef"><b>Definition:</b> Menu_option.cpp:20</div></div>
+<div class="ttc" id="aclass_menu_option_html_ace35d1f75d793020c91a61e25091c2ca"><div class="ttname"><a href="class_menu_option.html#ace35d1f75d793020c91a61e25091c2ca">MenuOption::get_args</a></div><div class="ttdeci">MenuOptionArguments &amp; get_args()</div><div class="ttdoc">Get the args object.</div><div class="ttdef"><b>Definition:</b> Menu_option.cpp:88</div></div>
+<div class="ttc" id="aclass_menu_option_html_aff0b709ddb94a92037a505b3fb0cd949"><div class="ttname"><a href="class_menu_option.html#aff0b709ddb94a92037a505b3fb0cd949">MenuOption::get_label</a></div><div class="ttdeci">std::string get_label()</div><div class="ttdoc">Get the label object.</div><div class="ttdef"><b>Definition:</b> Menu_option.cpp:67</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

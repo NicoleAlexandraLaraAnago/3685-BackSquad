@@ -1,0 +1,198 @@
+\hypertarget{opstr_8h}{}\doxysection{Referencia del Archivo Tree\+Calculator/opstr.h}
+\label{opstr_8h}\index{TreeCalculator/opstr.h@{TreeCalculator/opstr.h}}
+{\ttfamily \#include \char`\"{}tree.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{opstr_8h_a10bd21e59c4f8929803603bfa1dc4779}{str\+To\+List}} (\mbox{\hyperlink{class_tree}{Tree}}$<$ char $>$ \&lst, std\+::string str)
+\begin{DoxyCompactList}\small\item\em str\+To\+Lis Se usa para la lista de los arboles \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{opstr_8h_a0a3c1bf1b8fe94e1520627658a507d63}{operator\+To\+List}} (\mbox{\hyperlink{class_tree}{Tree}}$<$ char $>$ \&lst, std\+::string str)
+\begin{DoxyCompactList}\small\item\em operator\+To\+Lis Indica los operadores basicos \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{opstr_8h_ac792f08ed5f8708833ac64a61310dd03}{is\+Operator}} (char c)
+\begin{DoxyCompactList}\small\item\em is\+Operator Para saber si es operador ~\newline
+ \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{opstr_8h_a45cd1198ba5394cc62f37cfbd7d603dd}{is\+Operator}} (std\+::string c)
+\begin{DoxyCompactList}\small\item\em is\+Operator Para saber si es operador \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{opstr_8h_ad0acd78bee8a5b768d35240be8cfb722}{precedencia}} (char c)
+\begin{DoxyCompactList}\small\item\em precdencia Jerarquia de los operadores \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{opstr_8h_a2cb2aaed7d280a1b499bdc5181426c34}{infijo\+To\+Postfijo}} (std\+::string str)
+\begin{DoxyCompactList}\small\item\em infijo\+To\+Postfijo Recorre de infijo a postfijo \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{opstr_8h_a3d7096f1ea2157c4fa886cee0d849771}{operator\+To\+Function}} (char c)
+\begin{DoxyCompactList}\small\item\em operator\+To\+Function Operador para la funcional \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{opstr_8h_a821eaa02a930de7add4586ca08c099cc}{infijo\+To\+Funcional}} (std\+::string str)
+\begin{DoxyCompactList}\small\item\em infijo\+To\+Funcional Infijo para la funcional \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{opstr_8h_a035e98548556cbbd9dd7c404edd382ff}{infijo\+To\+Prefijo}} (std\+::string str)
+\begin{DoxyCompactList}\small\item\em infijo\+To\+Prefijo Se recorre de infijo a prefijo \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{opstr_8h_a821eaa02a930de7add4586ca08c099cc}\label{opstr_8h_a821eaa02a930de7add4586ca08c099cc}} 
+\index{opstr.h@{opstr.h}!infijoToFuncional@{infijoToFuncional}}
+\index{infijoToFuncional@{infijoToFuncional}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{infijoToFuncional()}{infijoToFuncional()}}
+{\footnotesize\ttfamily std\+::string infijo\+To\+Funcional (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+infijo\+To\+Funcional Infijo para la funcional 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstr_8h_a2cb2aaed7d280a1b499bdc5181426c34}\label{opstr_8h_a2cb2aaed7d280a1b499bdc5181426c34}} 
+\index{opstr.h@{opstr.h}!infijoToPostfijo@{infijoToPostfijo}}
+\index{infijoToPostfijo@{infijoToPostfijo}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{infijoToPostfijo()}{infijoToPostfijo()}}
+{\footnotesize\ttfamily std\+::string infijo\+To\+Postfijo (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+infijo\+To\+Postfijo Recorre de infijo a postfijo 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstr_8h_a035e98548556cbbd9dd7c404edd382ff}\label{opstr_8h_a035e98548556cbbd9dd7c404edd382ff}} 
+\index{opstr.h@{opstr.h}!infijoToPrefijo@{infijoToPrefijo}}
+\index{infijoToPrefijo@{infijoToPrefijo}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{infijoToPrefijo()}{infijoToPrefijo()}}
+{\footnotesize\ttfamily std\+::string infijo\+To\+Prefijo (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+infijo\+To\+Prefijo Se recorre de infijo a prefijo 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstr_8h_ac792f08ed5f8708833ac64a61310dd03}\label{opstr_8h_ac792f08ed5f8708833ac64a61310dd03}} 
+\index{opstr.h@{opstr.h}!isOperator@{isOperator}}
+\index{isOperator@{isOperator}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{isOperator()}{isOperator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool is\+Operator (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+is\+Operator Para saber si es operador ~\newline
+ 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstr_8h_a45cd1198ba5394cc62f37cfbd7d603dd}\label{opstr_8h_a45cd1198ba5394cc62f37cfbd7d603dd}} 
+\index{opstr.h@{opstr.h}!isOperator@{isOperator}}
+\index{isOperator@{isOperator}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{isOperator()}{isOperator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool is\+Operator (\begin{DoxyParamCaption}\item[{std\+::string}]{c }\end{DoxyParamCaption})}
+
+
+
+is\+Operator Para saber si es operador 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstr_8h_a3d7096f1ea2157c4fa886cee0d849771}\label{opstr_8h_a3d7096f1ea2157c4fa886cee0d849771}} 
+\index{opstr.h@{opstr.h}!operatorToFunction@{operatorToFunction}}
+\index{operatorToFunction@{operatorToFunction}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{operatorToFunction()}{operatorToFunction()}}
+{\footnotesize\ttfamily std\+::string operator\+To\+Function (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+operator\+To\+Function Operador para la funcional 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+std\+::string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstr_8h_a0a3c1bf1b8fe94e1520627658a507d63}\label{opstr_8h_a0a3c1bf1b8fe94e1520627658a507d63}} 
+\index{opstr.h@{opstr.h}!operatorToList@{operatorToList}}
+\index{operatorToList@{operatorToList}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{operatorToList()}{operatorToList()}}
+{\footnotesize\ttfamily void operator\+To\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tree}{Tree}}$<$ char $>$ \&}]{lst,  }\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+operator\+To\+Lis Indica los operadores basicos 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em lst} & \\
+\hline
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{opstr_8h_ad0acd78bee8a5b768d35240be8cfb722}\label{opstr_8h_ad0acd78bee8a5b768d35240be8cfb722}} 
+\index{opstr.h@{opstr.h}!precedencia@{precedencia}}
+\index{precedencia@{precedencia}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{precedencia()}{precedencia()}}
+{\footnotesize\ttfamily int precedencia (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+precdencia Jerarquia de los operadores 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{opstr_8h_a10bd21e59c4f8929803603bfa1dc4779}\label{opstr_8h_a10bd21e59c4f8929803603bfa1dc4779}} 
+\index{opstr.h@{opstr.h}!strToList@{strToList}}
+\index{strToList@{strToList}!opstr.h@{opstr.h}}
+\doxysubsubsection{\texorpdfstring{strToList()}{strToList()}}
+{\footnotesize\ttfamily void str\+To\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tree}{Tree}}$<$ char $>$ \&}]{lst,  }\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+
+
+str\+To\+Lis Se usa para la lista de los arboles 
+
+UNIVERSIDAD DE LAS FUERZAS ARMADAS \char`\"{}\+ESPE\char`\"{} INGENIERIA SOFTWARE Docente\+: Fernando Solis AUTORES \+: Diejo Jiminez Dalton Arevalo Lizzette Zapata Stalin Rivera Nicol Lara ENUNCIADO\+: CREACION DE UN PROGRAMA QUE SIMULE UNA CALCULADORA POLACA INVERSA FECHA DE CREACION \+: 15 DE JULIO DE 2021 FECHA DE MODIFICACION\+: 06 DE JULIO DE 2021
+
+
+\begin{DoxyParams}{Parámetros}
+{\em lst} & \\
+\hline
+{\em str} & \\
+\hline
+\end{DoxyParams}

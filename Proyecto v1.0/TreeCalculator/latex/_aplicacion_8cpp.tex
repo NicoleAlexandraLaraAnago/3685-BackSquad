@@ -1,0 +1,159 @@
+\hypertarget{_aplicacion_8cpp}{}\doxysection{Referencia del Archivo Tree\+Calculator/\+Aplicacion.cpp}
+\label{_aplicacion_8cpp}\index{TreeCalculator/Aplicacion.cpp@{TreeCalculator/Aplicacion.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$conio.\+h$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}tree.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}opstr.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}opstack.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}tnode.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}opstree.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Aplicacion.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Menu.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Menu\+\_\+option.\+h\char`\"{}}\newline
+\doxysubsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structusuario}{usuario}}
+\begin{DoxyCompactList}\small\item\em usuario Indica la estructura para el login \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_aplicacion_8cpp_a629568514359445d2fbda71d70eeb1ce}{BACKSPACE}}~8
+\item 
+\#define \mbox{\hyperlink{_aplicacion_8cpp_adbc8f4a8b6162c8a2e154eadeca189e7}{USUARIO}}~\char`\"{}user1\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_aplicacion_8cpp_a9e8538fad4eee548302ad9f60e6d47ca}{PASSWORD}}~\char`\"{}500\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_aplicacion_8cpp_a34ec0bf4b9f4cbde166aa283c8f5b1f2}{SUPER}}~\char`\"{}Back\+Squad\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_aplicacion_8cpp_aba5c54fadff8d880b1945dde87496e31}{PASS}}~\char`\"{}SOFTWARE\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_aplicacion_8cpp_af4bced5cf8ed55746d4b5d34f9a0fe39}{ENTER}}~13
+\end{DoxyCompactItemize}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_aplicacion_8cpp_af810a2a196da125618446556e8150b52}{ingresar}} ()
+\begin{DoxyCompactList}\small\item\em ingresar Aqui se ingresa el usuario \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_aplicacion_8cpp_acb4f075bd88eca6972a090055f19fd2e}{mostrar}} ()
+\begin{DoxyCompactList}\small\item\em Mostrar Muestra la funcion del usuario y la contrasenia. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_aplicacion_8cpp_a9e568adf64030e8bcc962aee197163b8}{quitar\+\_\+usuario}} (int)
+\begin{DoxyCompactList}\small\item\em quitar\+\_\+usuario Es la funcion donde hay la funcion ingresar del login \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structusuario}{usuario}} \mbox{\hyperlink{_aplicacion_8cpp_aafac90ed62ac84f4ac8827d551ff9b64}{personas}} \mbox{[}100\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de los \textquotesingle{}defines\textquotesingle{}}
+\mbox{\Hypertarget{_aplicacion_8cpp_a629568514359445d2fbda71d70eeb1ce}\label{_aplicacion_8cpp_a629568514359445d2fbda71d70eeb1ce}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!BACKSPACE@{BACKSPACE}}
+\index{BACKSPACE@{BACKSPACE}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{BACKSPACE}{BACKSPACE}}
+{\footnotesize\ttfamily \#define BACKSPACE~8}
+
+UNIVERSIDAD DE LAS FUERZAS ARMADAS \char`\"{}\+ESPE\char`\"{} INGENIERIA SOFTWARE Docente\+: Fernando Solis AUTORES \+: Diejo Jiminez Dalton Arevalo Lizzette Zapata Stalin Rivera Nicol Lara ENUNCIADO\+: CREACION DE UN PROGRAMA QUE SIMULE UNA CALCULADORA POLACA INVERSA FECHA DE CREACION \+: 15 DE JULIO DE 2021 FECHA DE MODIFICACION\+: 06 DE JULIO DE 2021 \mbox{\Hypertarget{_aplicacion_8cpp_af4bced5cf8ed55746d4b5d34f9a0fe39}\label{_aplicacion_8cpp_af4bced5cf8ed55746d4b5d34f9a0fe39}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!ENTER@{ENTER}}
+\index{ENTER@{ENTER}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{ENTER}{ENTER}}
+{\footnotesize\ttfamily \#define ENTER~13}
+
+\mbox{\Hypertarget{_aplicacion_8cpp_aba5c54fadff8d880b1945dde87496e31}\label{_aplicacion_8cpp_aba5c54fadff8d880b1945dde87496e31}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!PASS@{PASS}}
+\index{PASS@{PASS}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{PASS}{PASS}}
+{\footnotesize\ttfamily \#define PASS~\char`\"{}SOFTWARE\char`\"{}}
+
+\mbox{\Hypertarget{_aplicacion_8cpp_a9e8538fad4eee548302ad9f60e6d47ca}\label{_aplicacion_8cpp_a9e8538fad4eee548302ad9f60e6d47ca}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!PASSWORD@{PASSWORD}}
+\index{PASSWORD@{PASSWORD}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{PASSWORD}{PASSWORD}}
+{\footnotesize\ttfamily \#define PASSWORD~\char`\"{}500\char`\"{}}
+
+\mbox{\Hypertarget{_aplicacion_8cpp_a34ec0bf4b9f4cbde166aa283c8f5b1f2}\label{_aplicacion_8cpp_a34ec0bf4b9f4cbde166aa283c8f5b1f2}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!SUPER@{SUPER}}
+\index{SUPER@{SUPER}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{SUPER}{SUPER}}
+{\footnotesize\ttfamily \#define SUPER~\char`\"{}Back\+Squad\char`\"{}}
+
+\mbox{\Hypertarget{_aplicacion_8cpp_adbc8f4a8b6162c8a2e154eadeca189e7}\label{_aplicacion_8cpp_adbc8f4a8b6162c8a2e154eadeca189e7}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!USUARIO@{USUARIO}}
+\index{USUARIO@{USUARIO}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{USUARIO}{USUARIO}}
+{\footnotesize\ttfamily \#define USUARIO~\char`\"{}user1\char`\"{}}
+
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{_aplicacion_8cpp_af810a2a196da125618446556e8150b52}\label{_aplicacion_8cpp_af810a2a196da125618446556e8150b52}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!ingresar@{ingresar}}
+\index{ingresar@{ingresar}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{ingresar()}{ingresar()}}
+{\footnotesize\ttfamily void ingresar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+ingresar Aqui se ingresa el usuario 
+
+ingresar Se ingresa el login
+
+\begin{DoxyReturn}{Devuelve}
+No retorna nada por void
+
+No retorna nada por la funcion void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_aplicacion_8cpp_acb4f075bd88eca6972a090055f19fd2e}\label{_aplicacion_8cpp_acb4f075bd88eca6972a090055f19fd2e}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!mostrar@{mostrar}}
+\index{mostrar@{mostrar}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{mostrar()}{mostrar()}}
+{\footnotesize\ttfamily int mostrar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Mostrar Muestra la funcion del usuario y la contrasenia. 
+
+mostrar El usuario y la contrasenia
+
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_aplicacion_8cpp_a9e568adf64030e8bcc962aee197163b8}\label{_aplicacion_8cpp_a9e568adf64030e8bcc962aee197163b8}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!quitar\_usuario@{quitar\_usuario}}
+\index{quitar\_usuario@{quitar\_usuario}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{quitar\_usuario()}{quitar\_usuario()}}
+{\footnotesize\ttfamily int quitar\+\_\+usuario (\begin{DoxyParamCaption}\item[{int}]{usuario1 }\end{DoxyParamCaption})}
+
+
+
+quitar\+\_\+usuario Es la funcion donde hay la funcion ingresar del login 
+
+quitar\+\_\+usuario Donde se si ingresa mal el login no ingresa
+
+\begin{DoxyReturn}{Devuelve}
+int
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parámetros}
+{\em usuario1} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+
+
+\doxysubsection{Documentación de las variables}
+\mbox{\Hypertarget{_aplicacion_8cpp_aafac90ed62ac84f4ac8827d551ff9b64}\label{_aplicacion_8cpp_aafac90ed62ac84f4ac8827d551ff9b64}} 
+\index{Aplicacion.cpp@{Aplicacion.cpp}!personas@{personas}}
+\index{personas@{personas}!Aplicacion.cpp@{Aplicacion.cpp}}
+\doxysubsubsection{\texorpdfstring{personas}{personas}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structusuario}{usuario}} personas\mbox{[}100\mbox{]}}
+

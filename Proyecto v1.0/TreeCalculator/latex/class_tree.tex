@@ -1,0 +1,545 @@
+\hypertarget{class_tree}{}\doxysection{Referencia de la plantilla de la Clase Tree$<$ A $>$}
+\label{class_tree}\index{Tree$<$ A $>$@{Tree$<$ A $>$}}
+
+
+{\ttfamily \#include $<$tree.\+h$>$}
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tree_ab2f45f805cbcda5c3f1b17b2ccffc828}{Tree}} ()=default
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_tree}{Tree}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tree_aaa3a6be379a066a2f590bc973bb6379e}{insert}} (A dat)
+\begin{DoxyCompactList}\small\item\em insert Sirve para insertar \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tree_a09e7f078b56852cc81dea41bae83e413}{eraser}} ()
+\begin{DoxyCompactList}\small\item\em eraser Sirve para borrar lo del arbol binario \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree_acf85ac0bf2582e5268a9f8bb5c26daed}{get\+Last}} ()
+\begin{DoxyCompactList}\small\item\em Get the Last object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree_a5506d0c0767752f0a7b332cf358839d0}{get\+Root}} ()
+\begin{DoxyCompactList}\small\item\em Get the Root object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree_a4cc3e96f931aaed8f4186740a3dd91a3}{get\+At}} (int index)
+\begin{DoxyCompactList}\small\item\em Get the At object. \end{DoxyCompactList}\item 
+A \mbox{\hyperlink{class_tree_a4446804accf26c64c8a79e51f56cfb88}{search}} ()
+\begin{DoxyCompactList}\small\item\em search Busca el metodo de buscar \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_tree_a0f9519eb0888827a0a0854f9aa6466ad}{get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Get the Size object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_tree_a7dfb7b8398b659fff2f1882de453fea1}{is\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em is\+Empty Busca el metodo de emparejar \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tree_aa726947f12d0404c3c27581d57fbe0ba}{for\+Each}} (std\+::function$<$ void(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$, int)$>$ callback)
+\begin{DoxyCompactList}\small\item\em for\+Each Indica el acceso de los elementos \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tree_a3a7d9b5ed8a81acfab86b40549be345e}{for\+Each}} (std\+::function$<$ void(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$)$>$ callback)
+\begin{DoxyCompactList}\small\item\em for\+Each Indica el acceso de los elemento \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tree_a202c2e62e113f2e055ddda26fb9b1aae}{for\+Each}} (std\+::function$<$ void(A)$>$ callback)
+\begin{DoxyCompactList}\small\item\em for\+Each Indica el acceso de los elemento \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tree_aaae62698dec06a959dc167c2ea5be9b0}{for\+Each}} (std\+::function$<$ void(A, int)$>$ callback)
+\begin{DoxyCompactList}\small\item\em for\+Each Indica el acceso de los elemento \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tree_a85882616e1dd804ff00fd957f026d055}{for\+Each\+Back}} (std\+::function$<$ void(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$, int)$>$ callback)
+\begin{DoxyCompactList}\small\item\em for\+Each Indica el acceso de los elemento de atras \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree_aac746db8901a8e2d8778322d7e750ed4}{find}} (std\+::function$<$ bool(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$, int)$>$ callback)
+\begin{DoxyCompactList}\small\item\em find Sirva para encontrar \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree_a40fa9b96b9a95ed464393eb91e5d7245}{find}} (std\+::function$<$ bool(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$)$>$ callback)
+\begin{DoxyCompactList}\small\item\em find Sirva para encontrar \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree_ac8c88697a7889a7e11e0e4fa4244fc93}{find}} (std\+::function$<$ bool(A)$>$ callback)
+\begin{DoxyCompactList}\small\item\em find Sirva para encontrar \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree_acf74d2299d079548628be4f0cb7b43f0}{find}} (std\+::function$<$ bool(A, int)$>$ callback)
+\begin{DoxyCompactList}\small\item\em find Sirva para encontrar \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+\subsubsection*{template$<$typename A$>$\newline
+class Tree$<$ A $>$}
+
+UNIVERSIDAD DE LAS FUERZAS ARMADAS \char`\"{}\+ESPE\char`\"{} INGENIERIA SOFTWARE Docente\+: Fernando Solis AUTORES \+: Diejo Jiminez Dalton Arevalo Lizzette Zapata Stalin Rivera Nicol Lara ENUNCIADO\+: CREACION DE UN PROGRAMA QUE SIMULE UNA CALCULADORA POLACA INVERSA FECHA DE CREACION \+: 15 DE JULIO DE 2021 FECHA DE MODIFICACION\+: 06 DE JULIO DE 2021 
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_tree_ab2f45f805cbcda5c3f1b17b2ccffc828}\label{class_tree_ab2f45f805cbcda5c3f1b17b2ccffc828}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!Tree@{Tree}}
+\index{Tree@{Tree}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{Tree()}{Tree()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::\mbox{\hyperlink{class_tree}{Tree}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Construct a new \mbox{\hyperlink{class_tree}{Tree}} object. 
+
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_tree_a09e7f078b56852cc81dea41bae83e413}\label{class_tree_a09e7f078b56852cc81dea41bae83e413}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!eraser@{eraser}}
+\index{eraser@{eraser}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{eraser()}{eraser()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+void \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::eraser}
+
+
+
+eraser Sirve para borrar lo del arbol binario 
+
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+\mbox{\Hypertarget{class_tree_ac8c88697a7889a7e11e0e4fa4244fc93}\label{class_tree_ac8c88697a7889a7e11e0e4fa4244fc93}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!find@{find}}
+\index{find@{find}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::find (\begin{DoxyParamCaption}\item[{std\+::function$<$ bool(A)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+find Sirva para encontrar 
+
+find Sirve para encontar el elmento del arbol
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_acf74d2299d079548628be4f0cb7b43f0}\label{class_tree_acf74d2299d079548628be4f0cb7b43f0}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!find@{find}}
+\index{find@{find}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::find (\begin{DoxyParamCaption}\item[{std\+::function$<$ bool(A, int)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+find Sirva para encontrar 
+
+find Sirve para encontar el elmento del arbol
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_a40fa9b96b9a95ed464393eb91e5d7245}\label{class_tree_a40fa9b96b9a95ed464393eb91e5d7245}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!find@{find}}
+\index{find@{find}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::find (\begin{DoxyParamCaption}\item[{std\+::function$<$ bool(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+find Sirva para encontrar 
+
+find Sirve para encontar el elmento del arbol
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_aac746db8901a8e2d8778322d7e750ed4}\label{class_tree_aac746db8901a8e2d8778322d7e750ed4}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!find@{find}}
+\index{find@{find}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::find (\begin{DoxyParamCaption}\item[{std\+::function$<$ bool(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$, int)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+find Sirva para encontrar 
+
+find Sirve para encontar el elmento del arbol
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_a202c2e62e113f2e055ddda26fb9b1aae}\label{class_tree_a202c2e62e113f2e055ddda26fb9b1aae}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!forEach@{forEach}}
+\index{forEach@{forEach}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{forEach()}{forEach()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+void \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::for\+Each (\begin{DoxyParamCaption}\item[{std\+::function$<$ void(A)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+for\+Each Indica el acceso de los elemento 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tree_aaae62698dec06a959dc167c2ea5be9b0}\label{class_tree_aaae62698dec06a959dc167c2ea5be9b0}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!forEach@{forEach}}
+\index{forEach@{forEach}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{forEach()}{forEach()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+void \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::for\+Each (\begin{DoxyParamCaption}\item[{std\+::function$<$ void(A, int)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+for\+Each Indica el acceso de los elemento 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tree_a3a7d9b5ed8a81acfab86b40549be345e}\label{class_tree_a3a7d9b5ed8a81acfab86b40549be345e}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!forEach@{forEach}}
+\index{forEach@{forEach}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{forEach()}{forEach()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+void \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::for\+Each (\begin{DoxyParamCaption}\item[{std\+::function$<$ void(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+for\+Each Indica el acceso de los elemento 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tree_aa726947f12d0404c3c27581d57fbe0ba}\label{class_tree_aa726947f12d0404c3c27581d57fbe0ba}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!forEach@{forEach}}
+\index{forEach@{forEach}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{forEach()}{forEach()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+void \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::for\+Each (\begin{DoxyParamCaption}\item[{std\+::function$<$ void(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$, int)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+for\+Each Indica el acceso de los elementos 
+
+for\+Each Indica el acceso de los elemento
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tree_a85882616e1dd804ff00fd957f026d055}\label{class_tree_a85882616e1dd804ff00fd957f026d055}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!forEachBack@{forEachBack}}
+\index{forEachBack@{forEachBack}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{forEachBack()}{forEachBack()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+void \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::for\+Each\+Back (\begin{DoxyParamCaption}\item[{std\+::function$<$ void(\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$, int)$>$}]{callback }\end{DoxyParamCaption})}
+
+
+
+for\+Each Indica el acceso de los elemento de atras 
+
+for\+Each Indica el acceso de los elemento de la parte de atras
+
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em callback} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tree_a4cc3e96f931aaed8f4186740a3dd91a3}\label{class_tree_a4cc3e96f931aaed8f4186740a3dd91a3}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!getAt@{getAt}}
+\index{getAt@{getAt}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{getAt()}{getAt()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::get\+At (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Get the At object. 
+
+getter del At
+
+
+\begin{DoxyParams}{Parámetros}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_acf85ac0bf2582e5268a9f8bb5c26daed}\label{class_tree_acf85ac0bf2582e5268a9f8bb5c26daed}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!getLast@{getLast}}
+\index{getLast@{getLast}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{getLast()}{getLast()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::get\+Last}
+
+
+
+Get the Last object. 
+
+getter del pasado
+
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_a5506d0c0767752f0a7b332cf358839d0}\label{class_tree_a5506d0c0767752f0a7b332cf358839d0}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!getRoot@{getRoot}}
+\index{getRoot@{getRoot}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{getRoot()}{getRoot()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$ A $>$ $\ast$ \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::get\+Root}
+
+
+
+Get the Root object. 
+
+getter de la raiz ~\newline
+
+
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Devuelve}
+\mbox{\hyperlink{class_node}{Node}}$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_a0f9519eb0888827a0a0854f9aa6466ad}\label{class_tree_a0f9519eb0888827a0a0854f9aa6466ad}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!getSize@{getSize}}
+\index{getSize@{getSize}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+int \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::get\+Size}
+
+
+
+Get the Size object. 
+
+getter para saber el tamanio
+
+\begin{DoxyReturn}{Devuelve}
+int
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Devuelve}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_aaa3a6be379a066a2f590bc973bb6379e}\label{class_tree_aaa3a6be379a066a2f590bc973bb6379e}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!insert@{insert}}
+\index{insert@{insert}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+void \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::insert (\begin{DoxyParamCaption}\item[{A}]{dat }\end{DoxyParamCaption})}
+
+
+
+insert Sirve para insertar 
+
+insert Sirve para insertar los elementos ~\newline
+
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dat} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parámetros}
+{\em dat} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tree_a7dfb7b8398b659fff2f1882de453fea1}\label{class_tree_a7dfb7b8398b659fff2f1882de453fea1}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+bool \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::is\+Empty}
+
+
+
+is\+Empty Busca el metodo de emparejar 
+
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Devuelve}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tree_a4446804accf26c64c8a79e51f56cfb88}\label{class_tree_a4446804accf26c64c8a79e51f56cfb88}} 
+\index{Tree$<$ A $>$@{Tree$<$ A $>$}!search@{search}}
+\index{search@{search}!Tree$<$ A $>$@{Tree$<$ A $>$}}
+\doxysubsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily template$<$typename A $>$ \\
+A \mbox{\hyperlink{class_tree}{Tree}}$<$ A $>$\+::search}
+
+
+
+search Busca el metodo de buscar 
+
+search Sirve para para buscar dentro del arbol
+
+\begin{DoxyReturn}{Devuelve}
+A
+\end{DoxyReturn}
+
+\begin{DoxyTemplParams}{Parámetros del template}
+{\em A} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Devuelve}
+A 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+Tree\+Calculator/\mbox{\hyperlink{tree_8h}{tree.\+h}}\end{DoxyCompactItemize}

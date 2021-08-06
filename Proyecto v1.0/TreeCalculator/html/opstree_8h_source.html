@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Calculadora Polaca: Fichero Fuente TreeCalculator/opstree.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Calculator_30001.ico"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Calculadora Polaca
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Manejo de arboles binarios con sus recorridos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7931695c04ecf1c479c3d84d688839ba.html">TreeCalculator</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">opstree.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="opstree_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tnode_8h.html">tnode.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tree_8h.html">tree.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="opstack_8h.html">opstack.h</a>&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="opstree_8h.html#afc0bd9ecf3bf89095ba9c03ef4bc7c31">   24</a></span>&#160;<a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> <a class="code" href="opstree_8h.html#afc0bd9ecf3bf89095ba9c03ef4bc7c31">generateTree</a>(<a class="code" href="class_tree.html">Tree&lt;std::string&gt;</a> str){</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="class_tree.html">Tree&lt;TNode&lt;std::string&gt;</a>&gt; operands;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="class_node.html">Node&lt;std::string&gt;</a>* tmp = str.<a class="code" href="class_tree.html#a5506d0c0767752f0a7b332cf358839d0">getRoot</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">do</span>{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> tnode(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>());</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="opstr_8h.html#ac792f08ed5f8708833ac64a61310dd03">isOperator</a>(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>()) &amp;&amp; !<a class="code" href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">isFuntion</a>(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>())){</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            operands.<a class="code" href="class_tree.html#aaa3a6be379a066a2f590bc973bb6379e">insert</a>(tnode);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="opstr_8h.html#ac792f08ed5f8708833ac64a61310dd03">isOperator</a>(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>())){</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> rightDat = operands.<a class="code" href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">search</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>* right = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>(rightDat);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            operands.<a class="code" href="class_tree.html#a09e7f078b56852cc81dea41bae83e413">eraser</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> leftDat = operands.<a class="code" href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">search</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>* left = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>(leftDat);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            operands.<a class="code" href="class_tree.html#a09e7f078b56852cc81dea41bae83e413">eraser</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            tnode.<a class="code" href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">setRight</a>(right);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            tnode.<a class="code" href="class_t_node.html#aa89a9778440a020484d235ca327678a1">setLeft</a>(left);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            operands.<a class="code" href="class_tree.html#aaa3a6be379a066a2f590bc973bb6379e">insert</a>(tnode);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }<span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">isFuntion</a>(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>())){</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> rightDat = operands.<a class="code" href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">search</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>* right = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>(rightDat);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            operands.<a class="code" href="class_tree.html#a09e7f078b56852cc81dea41bae83e413">eraser</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            tnode.<a class="code" href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">setRight</a>(right);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            operands.<a class="code" href="class_tree.html#aaa3a6be379a066a2f590bc973bb6379e">insert</a>(tnode);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        tmp = tmp-&gt;<a class="code" href="class_node.html#ab59a85a8182892b3ab21870468a52224">getNext</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }<span class="keywordflow">while</span>(tmp-&gt;<a class="code" href="class_node.html#ab59a85a8182892b3ab21870468a52224">getNext</a>() != <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> tnode(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>());</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="opstr_8h.html#ac792f08ed5f8708833ac64a61310dd03">isOperator</a>(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>())){</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> rightDat = operands.<a class="code" href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">search</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>* right = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>(rightDat);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        operands.<a class="code" href="class_tree.html#a09e7f078b56852cc81dea41bae83e413">eraser</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> leftDat = operands.<a class="code" href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">search</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>* left = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>(leftDat);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        operands.<a class="code" href="class_tree.html#a09e7f078b56852cc81dea41bae83e413">eraser</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        tnode.<a class="code" href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">setRight</a>(right);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        tnode.<a class="code" href="class_t_node.html#aa89a9778440a020484d235ca327678a1">setLeft</a>(left);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        operands.<a class="code" href="class_tree.html#aaa3a6be379a066a2f590bc973bb6379e">insert</a>(tnode);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }<span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">isFuntion</a>(tmp-&gt;<a class="code" href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">getDat</a>())){</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a> rightDat = operands.<a class="code" href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">search</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>* right = <span class="keyword">new</span> <a class="code" href="class_t_node.html">TNode&lt;std::string&gt;</a>(rightDat);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        operands.<a class="code" href="class_tree.html#a09e7f078b56852cc81dea41bae83e413">eraser</a>();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        tnode.<a class="code" href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">setRight</a>(right);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        operands.<a class="code" href="class_tree.html#aaa3a6be379a066a2f590bc973bb6379e">insert</a>(tnode);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">return</span> operands.<a class="code" href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">search</a>();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
+<div class="ttc" id="aclass_node_html"><div class="ttname"><a href="class_node.html">Node</a></div><div class="ttdef"><b>Definition:</b> node.h:16</div></div>
+<div class="ttc" id="aclass_node_html_a986ab9300f5db5791aee1bb300688c4c"><div class="ttname"><a href="class_node.html#a986ab9300f5db5791aee1bb300688c4c">Node::getDat</a></div><div class="ttdeci">A getDat()</div><div class="ttdoc">Get the Dat object.</div><div class="ttdef"><b>Definition:</b> node.h:111</div></div>
+<div class="ttc" id="aclass_node_html_ab59a85a8182892b3ab21870468a52224"><div class="ttname"><a href="class_node.html#ab59a85a8182892b3ab21870468a52224">Node::getNext</a></div><div class="ttdeci">Node&lt; A &gt; * getNext()</div><div class="ttdoc">Get the Next object.</div><div class="ttdef"><b>Definition:</b> node.h:131</div></div>
+<div class="ttc" id="aclass_t_node_html"><div class="ttname"><a href="class_t_node.html">TNode</a></div><div class="ttdef"><b>Definition:</b> tnode.h:16</div></div>
+<div class="ttc" id="aclass_t_node_html_a66b93f1aff71926db78b2637516484c4"><div class="ttname"><a href="class_t_node.html#a66b93f1aff71926db78b2637516484c4">TNode::setRight</a></div><div class="ttdeci">void setRight(TNode&lt; A &gt; *right)</div><div class="ttdoc">Set the Right object.</div><div class="ttdef"><b>Definition:</b> tnode.h:192</div></div>
+<div class="ttc" id="aclass_t_node_html_aa89a9778440a020484d235ca327678a1"><div class="ttname"><a href="class_t_node.html#aa89a9778440a020484d235ca327678a1">TNode::setLeft</a></div><div class="ttdeci">void setLeft(TNode&lt; A &gt; *left)</div><div class="ttdoc">Set the Left object.</div><div class="ttdef"><b>Definition:</b> tnode.h:212</div></div>
+<div class="ttc" id="aclass_tree_html"><div class="ttname"><a href="class_tree.html">Tree</a></div><div class="ttdef"><b>Definition:</b> tree.h:19</div></div>
+<div class="ttc" id="aclass_tree_html_a09e7f078b56852cc81dea41bae83e413"><div class="ttname"><a href="class_tree.html#a09e7f078b56852cc81dea41bae83e413">Tree::eraser</a></div><div class="ttdeci">void eraser()</div><div class="ttdoc">eraser Sirve para borrar lo del arbol binario</div><div class="ttdef"><b>Definition:</b> tree.h:234</div></div>
+<div class="ttc" id="aclass_tree_html_a4446804accf26c64c8a79e51f56cfb88"><div class="ttname"><a href="class_tree.html#a4446804accf26c64c8a79e51f56cfb88">Tree::search</a></div><div class="ttdeci">A search()</div><div class="ttdoc">search Busca el metodo de buscar</div><div class="ttdef"><b>Definition:</b> tree.h:253</div></div>
+<div class="ttc" id="aclass_tree_html_a5506d0c0767752f0a7b332cf358839d0"><div class="ttname"><a href="class_tree.html#a5506d0c0767752f0a7b332cf358839d0">Tree::getRoot</a></div><div class="ttdeci">Node&lt; A &gt; * getRoot()</div><div class="ttdoc">Get the Root object.</div><div class="ttdef"><b>Definition:</b> tree.h:188</div></div>
+<div class="ttc" id="aclass_tree_html_aaa3a6be379a066a2f590bc973bb6379e"><div class="ttname"><a href="class_tree.html#aaa3a6be379a066a2f590bc973bb6379e">Tree::insert</a></div><div class="ttdeci">void insert(A dat)</div><div class="ttdoc">insert Sirve para insertar</div><div class="ttdef"><b>Definition:</b> tree.h:216</div></div>
+<div class="ttc" id="aopstack_8h_html"><div class="ttname"><a href="opstack_8h.html">opstack.h</a></div></div>
+<div class="ttc" id="aopstack_8h_html_a94414e8e477d58b50db9920050296b53"><div class="ttname"><a href="opstack_8h.html#a94414e8e477d58b50db9920050296b53">isFuntion</a></div><div class="ttdeci">bool isFuntion(std::string c)</div><div class="ttdoc">is Funtion Es la funcion para la jerarquia de las funciones trigonometricas</div><div class="ttdef"><b>Definition:</b> opstack.h:65</div></div>
+<div class="ttc" id="aopstr_8h_html_ac792f08ed5f8708833ac64a61310dd03"><div class="ttname"><a href="opstr_8h.html#ac792f08ed5f8708833ac64a61310dd03">isOperator</a></div><div class="ttdeci">bool isOperator(char c)</div><div class="ttdoc">isOperator Para saber si es operador</div><div class="ttdef"><b>Definition:</b> opstr.h:63</div></div>
+<div class="ttc" id="aopstree_8h_html_afc0bd9ecf3bf89095ba9c03ef4bc7c31"><div class="ttname"><a href="opstree_8h.html#afc0bd9ecf3bf89095ba9c03ef4bc7c31">generateTree</a></div><div class="ttdeci">TNode&lt; std::string &gt; generateTree(Tree&lt; std::string &gt; str)</div><div class="ttdoc">generateTree Es para la generacion del arbol</div><div class="ttdef"><b>Definition:</b> opstree.h:24</div></div>
+<div class="ttc" id="atnode_8h_html"><div class="ttname"><a href="tnode_8h.html">tnode.h</a></div></div>
+<div class="ttc" id="atree_8h_html"><div class="ttname"><a href="tree_8h.html">tree.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

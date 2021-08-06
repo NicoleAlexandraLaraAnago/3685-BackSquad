@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DSFML_STATIC @CMakeFiles/tcalculator.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tcalculator.dir\\main.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Proyecto\\TreeCalculator\\main.cpp\"",
+  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/main.cpp"
+},
+{
+  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DSFML_STATIC @CMakeFiles/tcalculator.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tcalculator.dir\\Menu_option.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Proyecto\\TreeCalculator\\Menu_option.cpp\"",
+  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/Menu_option.cpp"
+},
+{
+  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DSFML_STATIC @CMakeFiles/tcalculator.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tcalculator.dir\\Aplicacion.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Proyecto\\TreeCalculator\\Aplicacion.cpp\"",
+  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/Aplicacion.cpp"
+},
+{
+  "directory": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe -DSFML_STATIC @CMakeFiles/tcalculator.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tcalculator.dir\\Menu.cpp.obj -c \"C:\\Users\\DALTON AREVALO\\Desktop\\u\\Estructura de Datos\\Trabajo_Grupal_1\\3685-BackSquad\\Proyecto\\TreeCalculator\\Menu.cpp\"",
+  "file": "C:/Users/DALTON AREVALO/Desktop/u/Estructura de Datos/Trabajo_Grupal_1/3685-BackSquad/Proyecto/TreeCalculator/Menu.cpp"
+}
+]
